@@ -1,0 +1,64 @@
+.hero{
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.backgroundImage{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90vh;
+    width: 65vw; 
+    overflow: hidden;  
+    z-index: -2; 
+}
+
+@media (max-width: 990px) {
+  .backgroundImage{
+        width: 100%; 
+    }
+}
+@media (max-width: 770px) {
+  .backgroundImage{
+        width: 100%; 
+    }
+}
+
+
+.backgroundImage  .gatsby-image-wrapper{
+    height: 90vh;
+    width: 100%;
+}
+.heroSection{
+    padding-top: 35vh;
+}
+.scrollSection{
+    padding-top: 10vh;
+    width: 3.8rem;
+    font-size: 0.7rem;
+    color: #A0A0A0;
+    content: '';
+    position: relative;
+}
+.line{
+    margin-left: 1.85rem;
+    position: absolute;
+    width: 0.07rem;
+    height: 4.5rem;
+    background: #A0A0A0;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 0.04rem solid #A0A0A0;
+    width: 3.8rem;
+    height: 3.8rem;
+    margin-top: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #1FCCDC;
+}
+
+

@@ -1,0 +1,79 @@
+.Services{
+    min-height: 65vh;
+    background: url(../../images/wave.png) no-repeat #131417 center bottom;
+}
+
+.servicesSection{
+    padding-top: 7vh;
+    color: #fff;
+}
+
+.servicesSection h5{
+    font-weight: lighter;
+    letter-spacing: 0.09rem;
+}
+.servicesHeader{
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 0.09rem;
+}
+
+.serviceIcon{
+    color: #fff;
+    width: 4rem;
+}
+
+.serviceIconBR .gatsby-image-wrapper{
+    color: #fff;
+    width: 60px;
+}
+
+.serviceIconUX .gatsby-image-wrapper{
+    color: #fff;
+    width: 35px;
+    margin-top: -11px;
+}
+
+.serviceIconCO .gatsby-image-wrapper{
+    color: #fff;
+    width: 50px;
+    margin-top: -6px;
+}
+
+.serviceDescription{
+    font-size: 0.7rem;
+    width: 80%;
+    letter-spacing: 0.05rem;
+}
+
+
+.Article a{
+    color: #1FCCDC;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    font-size: 0.8rem;
+}
+
+.Article {
+    padding-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 770px){
+    .Article{
+        padding-bottom: 2rem;
+    }
+}
+
+.Article a:hover{
+    color: #1FCCDC;
+    transform: scale(2);
+}
+
+.articleArrow{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 0rem;
+    width: 2rem;
+}

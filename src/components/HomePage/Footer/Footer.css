@@ -1,0 +1,56 @@
+.footer{
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.backgroundImageFooter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50vh;
+    width: 30vw;
+    z-index: -4;
+}
+
+@media (max-width: 990px) {
+  .backgroundImageFooter{
+        width: 40vw;
+
+    }
+}
+@media (max-width: 770px) {
+  .backgroundImageFooter{
+        width: 50vw;
+    }
+}
+
+
+.backgroundImageFooter  .gatsby-image-wrapper{
+    height: 50vh;
+    width: 100%;
+    overflow: visible;
+    z-index: 4;
+}
+
+.footerContent{
+    margin-left: 40vw;
+    padding-top: 15vh;
+}
+
+@media (max-width: 770px) {
+    .footerContent{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15vh;
+    }
+}
+
+.footer h1{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+
+

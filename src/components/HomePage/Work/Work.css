@@ -1,0 +1,154 @@
+.workSection{
+    padding-top: 11.5vh;
+}
+
+.workSection h5{
+    letter-spacing: 0.09rem;
+}
+.workHeader{
+    font-weight: 200;
+    letter-spacing: 0.09rem;
+}
+
+.products{
+    margin-bottom: 8vh;
+}
+@media only screen and (max-width: 770px){
+    .products{
+        margin-bottom: 1vh;
+    }
+}
+
+.product .gatsby-image-wrapper{
+    margin-top: 2rem; 
+    width: 120%;
+    height: 80%;
+}
+@media only screen and (max-width: 770px){
+    .product .gatsby-image-wrapper{
+        width: 100%;
+        height: 12rem;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+}
+.destination .gatsby-image-wrapper{
+    margin-top: 2rem; 
+    width: 150%;
+    height: 80%;
+}
+@media only screen and (max-width: 770px){
+    .destination .gatsby-image-wrapper{
+        width: 100%;
+        height: 12rem;
+    }
+}
+
+.btnW{
+    font-size: 0.6rem;
+    letter-spacing: -0.01rem;
+    background: #f7f7f7;
+    padding: 0.6rem 0.7rem;
+    margin-top: 1.7rem;
+    width: 7rem;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+} 
+
+.btn{
+    margin-left: 2rem;
+    font-size: 0.6rem;
+    letter-spacing: -0.01rem;
+    background: #f7f7f7;
+    padding: 0.6rem 0.7rem;
+    width: 7rem;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.Explore{
+    justify-content: center;
+    margin: 15vh 0;
+    font-weight: 200;
+}
+
+.Explore h4{
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+
+.productDescription{
+    padding-top: 8rem;
+    height: 100%;
+    font-weight: lighter;
+    color: #1B1B1B;
+    flex-direction: column;
+    letter-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 770px){
+    .productDescription{
+        padding-top: 2rem;
+        text-align: center !important;
+    }
+    .btnW{
+        margin-top: 0rem;
+    }
+}
+
+.btnW:hover{
+    transform: scale(1.05);
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+
+.productDescription h5{
+    font-weight: 200;
+}
+.productDescription p{
+    font-weight: lighter;
+    color: #969696;
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 770px){
+    .btnRead{
+        display: flex;
+        justify-content: center;
+        float: none !important;
+    }
+
+}
+
+.arrowColor{
+    color: #53D8D1;
+}
+
+.read{
+    font-size: 0.7rem !important;
+    letter-spacing: -0.05rem;
+    margin-bottom: 0rem;
+    padding-right: 1rem;
+    color: #313030 !important;
+    font-weight: bold;
+}
+
+.rightAlign{
+    float: right;
+}
+
+.rightImage{
+    justify-content: flex-end;
+}

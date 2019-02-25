@@ -1,0 +1,61 @@
+.logo{
+  position: absolute;
+  z-index: 2;
+  width: 6rem;
+  margin-top: 10vh;
+  margin-left: -7px;
+}
+
+.getinTouch{
+    background: transparent;
+    color: black;
+    outline: none;
+    border: 0.1rem solid #41DBE6;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    letter-spacing: -0.01rem;
+    margin-top: 1.9rem;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.getinTouch:hover{
+    background: #41DBE6;
+    color: #fff;
+    outline: none;
+    border: 0.1rem solid #41DBE6;
+    transform: scale(1.1);
+}
+
+
+
+
+.tagline{
+    color: #757575;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+}
+
+.btnS{
+  font-size: 0.6rem;
+  letter-spacing: -0.01rem;
+  background: #C5C5C5;
+  padding: 0.6rem 0.7rem;
+  margin-top: 1.7rem;
+  width: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.arrow{
+  transform: rotate(90deg);
+}
+
+.default-background{
+   background-position: right !important;
+   background-repeat: no-repeat !important;
+   background-size: auto 100% !important;
+}
