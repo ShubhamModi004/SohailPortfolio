@@ -1,0 +1,57 @@
+.contactFooter{
+    background: url(../../../images/waveTurn.png) no-repeat #131417 center top;
+    min-height: 30vh;
+    margin-top: 12vh;
+}
+
+.contactFooter h1{
+    color: #fff;
+    padding-top: 10vh;
+}
+
+.contactFooter h3{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.contactFooter p{
+    letter-spacing: 0.1rem;
+}
+
+.links{
+    display: flex;
+    padding: 2rem 0rem;
+}
+
+
+.links a{
+    color: #20e3f5;
+    text-decoration: none;
+    padding-right: 5rem;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+.map{
+    z-index: -2;
+    margin-top: -4rem;
+}
+
+.bangalore h6{
+    position: absolute;
+    color: #20e3f5;
+}
+
+.bangalore{
+    justify-content: center;
+    align-content: center;
+    margin-top: -15vh;
+}
+
+.dot{
+    background-color: #20e3f5;
+    border-radius: 50%;
+    width: 0.8rem;
+    margin-top: 4vh;
+    height: 0.8rem;
+}

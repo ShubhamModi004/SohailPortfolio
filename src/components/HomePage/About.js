@@ -8,8 +8,10 @@ export default function About() {
         <div className="about">
             <div className="container">
                 <h4 className="aboutHeader">Crafting clear, intutive and imaginative designs that targets your customer's heart.</h4>
-                <div className="btnS d-flex">PLAY VIDEO <FaSortUp size={12} className="ml-1 arrow"/></div>
+                <div className="btnS d-flex">PLAY VIDEO <FaSortUp className="arrow" size={20}/></div>
             </div>
         </div>
     )
 }
+
+

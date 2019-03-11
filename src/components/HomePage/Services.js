@@ -26,7 +26,7 @@ export default function Services() {
                             <div className="Article">
                             <a href="#">
                                 View this article
-                                <FaLongArrowAltRight class="articleArrow"/>
+                                <FaLongArrowAltRight className="arrowColor articleArrow" />
                             </a>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Services() {
                             <div className="Article">
                             <a href="#">
                                 View this article
-                                <FaLongArrowAltRight class="articleArrow" />
+                                <FaLongArrowAltRight className="arrowColor articleArrow" />
                             </a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function Services() {
                             <div className="Article">
                             <a href="#">
                                 View this article
-                                <FaLongArrowAltRight className="articleArrow" />
+                                <FaLongArrowAltRight className="arrowColor articleArrow" />
                             </a>
                             </div>
                         </div>

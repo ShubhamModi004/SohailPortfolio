@@ -1,23 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Img from "gatsby-image";
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
+
+import Hero from "../components/ContactPage/Hero/Hero"
+import Footer from "../components/ContactPage/Footer/Footer"
 
 import Layout from "../components/layout"
-import Hero from "../components/HomePage/Hero"
-import About from "../components/HomePage/About"
-import Services from "../components/HomePage/Services"
-import Work from "../components/HomePage/Work/Work"
-import Blog from "../components/HomePage/Blog/Blog"
-import Footer from "../components/HomePage/Footer/Footer"
-import Image from "../components/image";
-
-
-
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Contact = () => (
   <Layout>
+    <SEO title="Page two" />
     <div className="container">
       <div class="logo">
         <Link to="/">
@@ -26,14 +19,9 @@ const IndexPage = () => (
       </div>
     </div>
     <Hero/>
-    <About/>
-    <Services/>
-    <Work />
-    <Blog/>
     <Footer/>
   </Layout>
 )
-
 
 const Logo = () => (
   <StaticQuery
@@ -53,6 +41,4 @@ const Logo = () => (
 )
 
 
-
-
-export default IndexPage
+export default Contact

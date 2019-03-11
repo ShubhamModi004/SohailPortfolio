@@ -1,8 +1,7 @@
 import React from 'react'
 import "./Footer.css"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image";
-
 
 const Footer = () => {
     return (
@@ -13,7 +12,7 @@ const Footer = () => {
             <div className="container footerContent">
                 <div>
                     <h1>Lets get you up that ladder</h1>
-                    <button className="getinTouch">GET IN TOUCH</button>
+                    <button className="getinTouch"><Link to="/contact">GET IN TOUCH</Link></button>
                 </div>
             </div>
         </div>

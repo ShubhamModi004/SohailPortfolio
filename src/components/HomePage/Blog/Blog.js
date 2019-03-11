@@ -29,7 +29,7 @@ export default function Blog() {
                         <div className="py-1">
                             <div className="Article">
                                 <a href="#">
-                                    View this article
+                                    Enquire about the program
                                 <FaLongArrowAltRight className="articleArrow" />
                                 </a>
                             </div>

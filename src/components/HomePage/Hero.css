@@ -3,6 +3,11 @@
     width: 100vw;
     overflow: hidden;
 }
+.hero h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: #272727;
+}
 
 .backgroundImage{
     position: absolute;

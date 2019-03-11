@@ -137,12 +137,13 @@
 }
 
 .read{
-    font-size: 0.7rem !important;
-    letter-spacing: -0.05rem;
+    font-size: 0.6rem !important;
+    letter-spacing: 0.01rem;
     margin-bottom: 0rem;
     padding-right: 1rem;
-    color: #313030 !important;
-    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    color: #272727 !important;
+    font-weight: bold !important;
 }
 
 .rightAlign{

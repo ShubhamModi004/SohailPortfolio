@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Titillium+Web:200,300,400,700|Work+Sans');
+
 .logo{
   position: absolute;
   z-index: 2;
@@ -6,11 +8,21 @@
   margin-left: -7px;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: #272727;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: #7d7d7d;
+  font-weight: light;
+}
 .getinTouch{
     background: transparent;
     color: black;
     outline: none;
-    border: 0.1rem solid #41DBE6;
+    border: 0.1rem solid #20e3f5;
     font-size: 0.6rem;
     padding: 0.4rem 0.8rem;
     letter-spacing: -0.01rem;
@@ -20,30 +32,49 @@
     transition: 0.3s all ease-in-out;
 }
 
+.getinTouch a{
+  color: #272727 !important;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+.getinTouch a:hover{
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.getinTouch:hover a{
+  text-decoration: none;
+  color: #fff !important;
+}
 .getinTouch:hover{
-    background: #41DBE6;
-    color: #fff;
+    background: #20e3f5;
+    color: #fff !important;
     outline: none;
-    border: 0.1rem solid #41DBE6;
+    border: 0.1rem solid #20e3f5;
     transform: scale(1.1);
 }
 
 
 
 
+
 .tagline{
-    color: #757575;
+    color: #7d7d7d;
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: 0.1rem;
-    font-weight: lighter;
 }
 
 .btnS{
   font-size: 0.6rem;
-  letter-spacing: -0.01rem;
-  background: #C5C5C5;
+  letter-spacing: 0.01rem;
+  background: #f7f7f7;
+  font-family: 'Titillium Web', sans-serif;
+  color: #272727 !important;
+  font-weight: bold;
   padding: 0.6rem 0.7rem;
   margin-top: 1.7rem;
-  width: 6rem;
+  width: 6.5rem;
   justify-content: center;
   align-items: center;
 }
@@ -52,7 +83,9 @@
 
 .arrow{
   transform: rotate(90deg);
+  color: #20e3f5;
 }
+
 
 .default-background{
    background-position: right !important;

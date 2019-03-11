@@ -10,6 +10,7 @@
 
 .servicesSection h5{
     font-weight: lighter;
+    color: #fff !important;
     letter-spacing: 0.09rem;
 }
 .servicesHeader{
@@ -44,11 +45,14 @@
     font-size: 0.7rem;
     width: 80%;
     letter-spacing: 0.05rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
 }
 
 
 .Article a{
-    color: #1FCCDC;
+    color: #20e3f5;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
@@ -67,7 +71,7 @@
 }
 
 .Article a:hover{
-    color: #1FCCDC;
+    color: #20e3f5;
     transform: scale(2);
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Hero.css"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image";
 
 
@@ -14,7 +14,7 @@ const Hero = () => {
                 <div>
                     <h2>Sohail Mohammad</h2>
                     <p className="tagline">Human Experience designer</p>
-                    <button className="getinTouch">GET IN TOUCH</button>
+                    <button className="getinTouch"><Link to="/contact">GET IN TOUCH</Link></button>
                 </div>
                 <div className="scrollSection">
                     <p className="scroll text-center">scroll</p>
