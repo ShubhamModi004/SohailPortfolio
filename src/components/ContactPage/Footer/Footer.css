@@ -1,7 +1,8 @@
 .contactFooter{
-    background: url(../../../images/waveTurn.png) no-repeat #131417 center top;
+    background: url(../../../images/waveTurn.png) no-repeat center top;
     min-height: 30vh;
     margin-top: 12vh;
+    width: 100vw;
 }
 
 .contactFooter h1{
@@ -23,6 +24,16 @@
     padding: 2rem 0rem;
 }
 
+@media only screen and (max-width: 770px ){
+    .links{
+        display: flex;
+        padding: 4rem 0rem;
+    }
+    .links a{
+        padding: 1rem 0rem;
+    }
+}
+
 
 .links a{
     color: #20e3f5;
@@ -35,6 +46,12 @@
 .map{
     z-index: -2;
     margin-top: -4rem;
+}
+
+@media only screen and (max-width: 770px){
+    .map{
+        margin-top: 0rem;
+    }
 }
 
 .bangalore h6{

@@ -23,37 +23,37 @@ const Hero = () => {
                         <h5>What are you looking for?</h5>
                         <p className="options">You can select multiple options</p>
                         <div className="row">
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Website" id="Website" />
                                     <span>WEBSITE</span>
                                 </label>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Mobile_App" id="Mobile_App"/>
                                     <span>MOBILE APP</span>
                                 </label>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Product_Design" id="Product_Design" />
                                     <span>PRODUCT DESIGN</span>
                                 </label>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Branding" id="Branding" />
                                     <span>BRANDING</span>
                                 </label>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Consultation" id="Consultation" />
                                     <span>CONSULTATION</span>
                                 </label>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-5">
+                            <div className="col-md-5 col-sm-6 col-6">
                                 <label className="inputFieldRadio">
                                     <input className="radioButton" type="radio" name="Design_Thinking_Program" id="Design_Thinking_Program"/>
                                     <span>DESIGN THINKING PROGRAM</span>

@@ -11,13 +11,17 @@ export default function Footer() {
             <div className="container">
                 <h1>Forms don't do justice to your idea?</h1>
                 <p>Ping me or send me an email</p>
-                <div className="links">
-                    <a href="mailto:anushas.designer@gmail.com">
-                        hello@sohail.work
-                    </a>
-                    <a href="tel:+91-819-7558-162">
-                        +918197558162
-                    </a>
+                <div className="links row">
+                    <div className="col-md-6 col-sm-12">
+                        <a href="mailto:hello@sohail.work">
+                            hello@sohail.work
+                        </a>
+                    </div>
+                    <div className="col-md-6 col-sm-12">
+                        <a href="tel:+91-819-7558-162">
+                            +918197558162
+                        </a>
+                    </div>
                 </div>
                 <h3>I am always game for a coffee</h3>
             </div>      
