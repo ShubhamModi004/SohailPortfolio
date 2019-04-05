@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Work.css"
 import { FaLongArrowAltRight } from 'react-icons/fa';
-
+import Fade from 'react-reveal/Fade';
 
 import Product from './Product';
 import Rent from './Rent';
@@ -13,7 +13,7 @@ export default function Work() {
         <div className="Work">
             <div className="container">
                 <div className="workSection">
-                    <h4 className="workHeader mb-4">Some of my select work</h4>
+                    <Fade ><h4 className="workHeader mb-4">Some of my select work</h4></Fade>
                 </div>
                 <div class="row products">
                     <div class="col-md-4">
@@ -26,10 +26,10 @@ export default function Work() {
                     </div>
                     <div class="col-md-4">
                         <div className="productDescription">
-                            <h5>Marzipan Chocolates</h5> 
-                            <p>Packaging</p>
+                            <Fade delay={800}><h5>Marzipan Chocolates</h5></Fade> 
+                            <Fade delay={1000}><p>Packaging</p></Fade>
                             <div className="btnRead">
-                                <div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor"/></div>
+                                <Fade delay={1000}><div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor"/></div></Fade>
                             </div>
                         </div>
                     </div>
@@ -37,10 +37,10 @@ export default function Work() {
                 <div class="row products reverse">
                     <div class="col-md-4">
                         <div className="productDescription text-right">
-                            <h5>Ride - Luxury Car Rental</h5>
-                            <p>Branding - Website - Mobile App</p>
+                            <Fade delay={800}><h5>Ride - Luxury Car Rental</h5></Fade>
+                            <Fade delay={1000}><p>Branding - Website - Mobile App</p></Fade>
                             <div className="btnRead rightAlign">
-                                <div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor" /></div>
+                                <Fade delay={1000}><div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor" /></div></Fade>
                             </div>
                         </div>
                     </div>
@@ -65,19 +65,19 @@ export default function Work() {
                     </div>
                     <div class="col-md-4">
                         <div className="productDescription">
-                            <h5>Destination X</h5>
-                            <p>Travel - Website - App - Branding</p>
+                            <Fade delay={800}><h5>Destination X</h5></Fade>
+                            <Fade delay={1000}> <p>Travel - Website - App - Branding</p></Fade>
                             <div className="btnRead">
-                                <div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor" /></div>
+                                <Fade delay={1000}><div className="btnW d-flex"><p class="read">READ CASE </p><FaLongArrowAltRight className="arrowColor" /></div></Fade>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="Explore d-flex">
-                    <h4>Want to explore all my projects?</h4>
+                    <Fade bottom delay={1200}><h4>Want to explore all my projects?</h4></Fade>
                     <div className="btnRead">
-                        <div className="btn d-flex"><p class="read">View All </p><FaLongArrowAltRight className="arrowColor" /></div>
+                        <Fade delay={1500}><div className="btn d-flex"><p class="read">View All </p><FaLongArrowAltRight className="arrowColor" /></div></Fade>
                     </div>
                 </div>
             </div>
