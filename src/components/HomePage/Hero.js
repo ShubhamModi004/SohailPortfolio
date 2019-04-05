@@ -2,6 +2,7 @@ import React from 'react'
 import "./Hero.css"
 import { StaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image";
+import Fade from 'react-reveal/Fade';
 
 
 const Hero = () => {
@@ -12,9 +13,18 @@ const Hero = () => {
             </div>
             <div className="container heroSection">
                 <div>
-                    <h2>Sohail Mohammad</h2>
-                    <p className="tagline">Human Experience designer</p>
-                    <button className="getinTouch"><Link to="/contact">GET IN TOUCH</Link></button>
+                    <div className="d-flex">
+                        <Fade bottom duration={800} >
+                            <h2 className="header">Sohail</h2>
+                        </Fade>
+                        <Fade bottom duration={1400}>
+                            <h2> Mohammad </h2>
+                        </Fade>
+                    </div>
+                    
+                    <Fade delay={1900}><p className="tagline">Human Experience designer</p></Fade>
+
+                    <Fade delay={1900}><button className="getinTouch"><Link to="/contact">GET IN TOUCH</Link></button></Fade>
                 </div>
                 <div className="scrollSection">
                     <p className="scroll text-center">scroll</p>

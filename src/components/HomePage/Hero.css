@@ -10,6 +10,10 @@
     color: #272727;
 }
 
+.header{
+    margin-right:5px; 
+}
+
 .backgroundImage{
     position: absolute;
     right: 0;
