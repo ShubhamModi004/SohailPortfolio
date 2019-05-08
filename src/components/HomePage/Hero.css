@@ -10,16 +10,16 @@
     color: #272727;
 }
 
-.header{
-    margin-right:5px; 
+.mainTag {
+    font-size: 1.4rem;
+    color: #B8B8B8;
+    margin-bottom: 0rem !important;
 }
-
 .backgroundImage{
     position: absolute;
     right: 0;
-    top: 0;
     height: 90vh;
-    width: 65vw; 
+    width: 45vw; 
     overflow: hidden;  
     z-index: -2; 
 }
@@ -36,12 +36,12 @@
 }
 
 
-.backgroundImage  .gatsby-image-wrapper{
+.backgroundImage  .gatsby-image-wrapper img{
     height: 90vh;
-    width: 100%;
+    width: 100%; 
 }
 .heroSection{
-    padding-top: 35vh;
+    color: #B8B8B8;
 }
 .scrollSection{
     padding-top: 10vh;

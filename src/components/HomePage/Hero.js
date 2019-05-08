@@ -13,25 +13,18 @@ const Hero = () => {
             </div>
             <div className="container heroSection">
                 <div>
-                    <div className="d-flex">
+                    <div>
                         <Fade bottom duration={800} >
-                            <h2 className="header">Sohail</h2>
+                            <p className="header mainTag">Hey There,</p>
                         </Fade>
                         <Fade bottom duration={1400}>
-                            <h2> Mohammad </h2>
+                            <p className="mainTag"> I'm Sohail Mohammad </p>
                         </Fade>
                     </div>
                     
-                    <Fade delay={1900}><p className="tagline">Human Experience designer</p></Fade>
+                    <Fade delay={1900}><h4 className="tagline" style={{ marginTop: '2rem', color: '#000'}}>A Digital Designer from Bangalore, India.<br/>Specialized in User Interface & User Experience Design</h4></Fade>
 
-                    <Fade delay={1900}><button className="getinTouch"><Link to="/contact">GET IN TOUCH</Link></button></Fade>
-                </div>
-                <div className="scrollSection">
-                    <p className="scroll text-center">scroll</p>
-                    <div className="line"></div>
-                    <div className="circle d-flex">
-                        <p>.</p>
-                    </div>
+                    <div style={{ marginTop: '2rem'}}><Fade delay={1900}><Link className="button" style={{ background: '#F2F2F2'}} to="/">MY WORK</Link></Fade></div>
                 </div>
             </div>
         </div>

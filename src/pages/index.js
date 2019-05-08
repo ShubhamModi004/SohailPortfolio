@@ -4,6 +4,7 @@ import Img from "gatsby-image";
 import { StaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Header from "../components/header"
 import Hero from "../components/HomePage/Hero"
 import About from "../components/HomePage/About"
 import Services from "../components/HomePage/Services"
@@ -18,13 +19,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
-      <div class="logo">
-        <Link to="/">
-          <Logo />
-        </Link>
-      </div>
-    </div>
+    <Header/>
     <Hero/>
     <About/>
     <Services/>
