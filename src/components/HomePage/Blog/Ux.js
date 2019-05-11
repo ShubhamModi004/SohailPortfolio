@@ -3,11 +3,11 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const Breed = () => (
+const Ux = () => (
     <StaticQuery
         query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "breed.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "Ux.png" }) {
           childImageSharp {
             fluid{
               ...GatsbyImageSharpFluid
@@ -19,4 +19,4 @@ const Breed = () => (
         render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
     />
 )
-export default Breed
+export default Ux

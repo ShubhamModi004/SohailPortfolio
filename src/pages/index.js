@@ -9,8 +9,8 @@ import Hero from "../components/HomePage/Hero"
 import About from "../components/HomePage/About"
 import Work from "../components/HomePage/Work/Work"
 import Myprocess from "../components/HomePage/Myprocess/Myprocess"
-import Footer from "../components/HomePage/Footer/Footer"
-import Image from "../components/image";
+import Blog from "../components/HomePage/Blog/Blog"
+
 
 
 
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <About/>
     <Work />
     <Myprocess/>
-    <Footer/>
+    <Blog/>
   </Layout>
 )
 

@@ -1,4 +1,4 @@
-.myprocess{
+.footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,11 +6,13 @@
     justify-content: space-around;
     align-items: center;
     min-height: 24rem;
-    background: url(../../../images/wave.png) no-repeat #F2F2F2 center;
+    background: url(../images/wave.png) no-repeat #F2F2F2 center;
     width: 90vw;
     padding: 6rem;
     position: relative;
     overflow: hidden;
+    right: -10vw;
+    text-align: right;
 }
 
 
@@ -30,7 +32,7 @@
     
 }
 
-.aboutHeader{
+.footerHeader{
     letter-spacing: 0.1rem;
     font-weight: 500;
 }

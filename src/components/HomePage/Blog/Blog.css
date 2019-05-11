@@ -1,11 +1,15 @@
 .blog{
-    min-height: 92.5vh;
-    background: url(../../../images/wave.png) no-repeat #131417 center bottom; 
+    padding: 8rem 0rem;
 }   
 
 .blog p{
     color: #5C5B5B;
     font-size: 0.74rem;
+}
+
+.servicesHeader{
+    font-weight: 500;
+    margin-bottom: 4rem;
 }
 
 .blogSectionQuote{
@@ -23,10 +27,11 @@
 
 .cardBlog{
     width: 75%;
-    background: #1F1F23;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
+    position: relative;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 770px){
@@ -39,19 +44,28 @@
     }
 }
 
-.cardBlog:hover{
+.cardBlog:hover .gatsby-image-wrapper{
     transform: scale(1.01);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .cardBlog h6{
-    font-weight: 200;
     letter-spacing: 0.01rem;
+    line-height: 1.9rem;
+}
+
+.cardBlog h7{
+    padding: 2rem 0;
+    font-size: 0.8rem;
+    font-weight: 700; 
+}
+
+.blogTitle{
+    font-weight: 700;
     padding: 0.8rem 0.7rem;
-    font-size: 0.95rem;
-    margin-top: 0.3rem; 
-    margin-bottom: 0rem;
-    color: #fff !important;
+    position: absolute;
+    top: 1rem;
+    padding: 0 2rem;
 }
 .cardLink{
     margin-top: -0.6rem;
