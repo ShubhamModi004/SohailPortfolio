@@ -14,12 +14,36 @@
     right: -10vw;
     text-align: right;
 }
+@media only screen and (max-width: 770px){
+    .footer{
+        padding: 2rem;
+        min-height: 20rem;
+    }
+    .backgroundSection{
+        display: none;
+    }
+}
 
 .footerBottom{
     min-height: 24rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 770px){
+    .footerBottom{
+        min-height: 24rem;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding: 4rem 2rem;
+    }
+    .footerContent{
+        margin-bottom: 2rem;
+    }
+    
 }
 
 .footerContent h4{
@@ -35,7 +59,16 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     color: #272727;
-    
+    text-align: right;    
+}
+
+@media only screen and (max-width: 770px){
+    .calltoActions a{
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
+        color: #272727;
+        text-align: left;    
+    }
 }
 .calltoActions a:nth-child(1){
     margin-bottom: 3rem;

@@ -28,24 +28,4 @@ const IndexPage = () => (
 )
 
 
-const Logo = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "logo.png" }) {
-          childImageSharp {
-            fluid{
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-)
-
-
-
-
 export default IndexPage

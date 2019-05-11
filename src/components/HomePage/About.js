@@ -14,19 +14,19 @@ export default function About() {
             <div className="container">
                 <Fade delay={900}>
                     <div className="row">
-                        <div className="col-md-3 col-sm-6 fields">
+                        <div className="col-md-3 col-6 fields">
                             <h1>60+</h1>
                             <p>CLIENTS</p>
                         </div>
-                        <div className="col-md-3 col-sm-6 fields">
+                        <div className="col-md-3 col-6 fields">
                             <h1>5+</h1>
                             <p>EXPERIENCE</p>
                         </div>
-                        <div className="col-md-3 col-sm-6 fields">
+                        <div className="col-md-3 col-6 fields">
                             <h1>2,535</h1>
                             <p>CUP OF COFFEE</p>
                         </div>
-                        <div className="col-md-3 col-sm-6 fields rotatedField">
+                        <div className="col-md-3 col-6 fields rotatedField">
                             <h1 className="rotate">8</h1>
                             <p>LOVE FOR DESIGNS</p>
                         </div>

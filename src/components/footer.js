@@ -29,7 +29,7 @@ export default function Footer() {
                 </div>
                 <div className="calltoActions">
                     <Link>lifeofpixels0707@gmail.com</Link>
-                    <Link className="text-right">+91 81975 58162</Link>
+                    <Link>+91 81975 58162</Link>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ const UX = () => (
     <StaticQuery
         query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "UX.png" }) {
+        placeholderImage: file(relativePath: { eq: "Ux.png" }) {
           childImageSharp {
             fluid{
               ...GatsbyImageSharpFluid

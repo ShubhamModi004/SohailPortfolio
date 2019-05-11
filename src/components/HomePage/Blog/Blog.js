@@ -21,6 +21,7 @@ export default function Blog() {
                             <h6 className="blogTitle">THE ROAD TO GOOD DESIGN</h6>
                             <br/>
                             <h7> READ <FaAngleRight /> </h7>
+                            <br/>
                         </div>
                     </div>
                     <div className="col-md-4 col-12">
@@ -29,6 +30,7 @@ export default function Blog() {
                             <h6 className="blogTitle">THE UX FLOW</h6>
                             <br/>
                             <h7> READ <FaAngleRight /> </h7>
+                            <br/>
                         </div>
                     </div>
                     <div className="col-md-4 col-12">
@@ -37,6 +39,7 @@ export default function Blog() {
                             <h6 className="blogTitle">PRINCIPLES OF DESIGN</h6>
                             <br/>
                             <h7> READ <FaAngleRight/> </h7>
+                            <br/>
                         </div>
                     </div>
                 </div>
