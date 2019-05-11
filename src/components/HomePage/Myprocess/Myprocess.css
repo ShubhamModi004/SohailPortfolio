@@ -10,7 +10,7 @@
     width: 90vw;
     padding: 6rem;
     position: relative;
-
+    overflow: hidden;
 }
 
 
@@ -27,6 +27,7 @@
 .backgroundSection img{
     height: 100% !important;
     bottom: 0 !important;
+    
 }
 
 .aboutHeader{
