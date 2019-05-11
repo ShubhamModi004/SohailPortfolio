@@ -37,27 +37,13 @@
     font-weight: 500;
 }
 
-.fields{
-    padding: 1rem 1rem;
+.socialLinks{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.fields h1{
-    font-size: 4rem;
-}
-
-.fields p{
-    color: #C1C1C1;
-    
-}
-
-.rotatedField{
-    bottom: -5rem;
-}
-
-.rotate{
-    transform: rotate(90deg);
-    position: absolute;
-    font-size: 6rem !important;
-    top: -5rem;
+.socialLinks img{
+    margin-left: 3rem;
+    width: 2.5rem;
 }
 

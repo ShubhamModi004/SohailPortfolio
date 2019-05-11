@@ -14,7 +14,10 @@ export default function Footer() {
             </div>
             <div className="container">
                 <Fade delay={900}>
-                    <Link className="button" style={{ background: '#fff' }} to="/">MY PROCESS</Link>
+                    <div className="socialLinks">
+                    <Link to="/"><img src={require('../images/Dribble.png')}/></Link>
+                    <Link to="/"><img src={require('../images/Instagram.png')} /></Link>
+                    </div>
                 </Fade>
             </div>
             <div className="backgroundSection">
