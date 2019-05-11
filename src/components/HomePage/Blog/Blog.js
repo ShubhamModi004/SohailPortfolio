@@ -3,7 +3,7 @@ import "./Blog.css"
 import { FaAngleRight } from 'react-icons/fa';
 
 import Design from './Design';
-import Ux from './Ux';
+import UiUx from './UiUx';
 import Principle from './Principle';
 
 
@@ -26,8 +26,8 @@ export default function Blog() {
                     </div>
                     <div className="col-md-4 col-12">
                         <div className="cardBlog">
-                            <Ux/>
-                            <h6 className="blogTitle">THE UX FLOW</h6>
+                            <UiUx/>
+                            <h6 className="blogTitle">THE UiUx FLOW</h6>
                             <br/>
                             <h7> READ <FaAngleRight /> </h7>
                             <br/>
