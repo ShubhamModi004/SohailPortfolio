@@ -1,14 +1,42 @@
 import React from 'react'
 import "./About.css"
 import { FaSortUp } from 'react-icons/fa';
+import { StaticQuery, graphql, Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
 
 export default function About() {
     return (
         <div className="about">
             <div className="container">
-                <Fade cascade delay={1000}><h4 className="aboutHeader">Crafting clear, intutive and imaginative designs that targets your customer's heart.</h4></Fade>
-                <Fade delay={1200}><div className="btnS d-flex">PLAY VIDEO <FaSortUp className="arrow" size={20}/></div></Fade>
+                <Fade bottom delay={800}><h5 className="aboutHeader">Humanizing the experience of digital products<br/>
+                    by creating seamless & intuitive designs.</h5></Fade>
+            </div>
+            <div className="container">
+                <Fade delay={900}>
+                    <div className="row">
+                        <div className="col-md-3 col-sm-6 fields">
+                            <h1>60+</h1>
+                            <p>CLIENTS</p>
+                        </div>
+                        <div className="col-md-3 col-sm-6 fields">
+                            <h1>5+</h1>
+                            <p>EXPERIENCE</p>
+                        </div>
+                        <div className="col-md-3 col-sm-6 fields">
+                            <h1>2,535</h1>
+                            <p>CUP OF COFFEE</p>
+                        </div>
+                        <div className="col-md-3 col-sm-6 fields rotatedField">
+                            <h1 className="rotate">8</h1>
+                            <p>LOVE FOR DESIGNS</p>
+                        </div>
+                    </div>
+                </Fade>
+            </div>
+            <div className="container">
+                <Fade delay={900}>
+                    <Link className="button" style={{ background: '#fff' }} to="/">MY WORK</Link>
+                </Fade>
             </div>
         </div>
     )

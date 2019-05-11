@@ -3,11 +3,11 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const Product = () => (
+const Spintly = () => (
     <StaticQuery
         query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "marzipan.png" }) {
+        placeholderImage: file(relativePath: { eq: "Spintly.png" }) {
           childImageSharp {
             fluid{
               ...GatsbyImageSharpFluid
@@ -19,4 +19,4 @@ const Product = () => (
         render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
     />
 )
-export default Product
+export default Spintly

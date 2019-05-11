@@ -7,9 +7,8 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Hero from "../components/HomePage/Hero"
 import About from "../components/HomePage/About"
-import Services from "../components/HomePage/Services"
 import Work from "../components/HomePage/Work/Work"
-import Blog from "../components/HomePage/Blog/Blog"
+import Myprocess from "../components/HomePage/Myprocess/Myprocess"
 import Footer from "../components/HomePage/Footer/Footer"
 import Image from "../components/image";
 
@@ -22,9 +21,8 @@ const IndexPage = () => (
     <Header/>
     <Hero/>
     <About/>
-    <Services/>
     <Work />
-    <Blog/>
+    <Myprocess/>
     <Footer/>
   </Layout>
 )

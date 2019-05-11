@@ -1,7 +1,8 @@
 .hero{
-    min-height: 90vh;
+    min-height: 30rem;
     width: 100vw;
     overflow: hidden;
+    position: relative;
 }
 
 .hero h2{
@@ -18,10 +19,11 @@
 .backgroundImage{
     position: absolute;
     right: 0;
-    height: 90vh;
-    width: 45vw; 
-    overflow: hidden;  
-    z-index: -2; 
+    height: auto;
+    width: 45vw;
+    overflow: hidden;
+    z-index: -2;
+    bottom: 0;
 }
 
 @media (max-width: 990px) {
