@@ -8,7 +8,7 @@
     background: #000;
 }
 
-.loaderLogo {
-    width: 5vh;
-    height: 5vh;
+.loaderLogo img{
+    width: 8vh;
+    height: 8vh;
 } 
