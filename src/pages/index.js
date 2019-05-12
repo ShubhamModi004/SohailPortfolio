@@ -1,4 +1,4 @@
-import React from "react"
+import React, {Component} from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image";
 import { StaticQuery, graphql } from "gatsby"
@@ -11,21 +11,37 @@ import Work from "../components/HomePage/Work/Work"
 import Myprocess from "../components/HomePage/Myprocess/Myprocess"
 import Blog from "../components/HomePage/Blog/Blog"
 
-
-
-
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <Header/>
-    <Hero/>
-    <About/>
-    <Work />
-    <Myprocess/>
-    <Blog/>
-  </Layout>
-)
+class IndexPage extends Component {
 
+	state= {
+		render: false
+	}
 
-export default IndexPage
+	componentDidMount(){
+		setTimeout(() => {
+			this.setState({
+				render: true
+			})
+		}, 4000);
+	}
+
+	render() {
+		const {render } = this.state;
+		return (
+			(!render ? <Header/> :
+				<Layout>
+					<Header />
+					<Hero />
+					<About />
+					<Work />
+					<Myprocess />
+					<Blog />
+				</Layout>
+			)
+		)
+	}
+}
+  
+export default IndexPage;
