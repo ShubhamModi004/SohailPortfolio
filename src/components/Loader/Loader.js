@@ -16,12 +16,12 @@ class Loader extends Component {
             this.setState({
                 show: false,
             })
-        }, 600);
+        }, 200);
         setTimeout(() => {
             this.setState({
                 showScreen: false,
             })
-        }, 1200);
+        }, 700);
     }
 
     render() {
