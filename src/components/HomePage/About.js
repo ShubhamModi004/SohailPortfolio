@@ -8,8 +8,11 @@ export default function About() {
     return (
         <div className="about">
             <div className="container">
-                <Fade bottom delay={800}><h5 className="aboutHeader">Humanizing the experience of digital products<br/>
-                    by creating seamless & intuitive designs.</h5></Fade>
+                <Fade bottom delay={800}>
+                <h5 className="aboutHeader col-md-6">Humanizing the experience of digital products
+                    by creating seamless & intuitive designs.
+                </h5>
+                </Fade>
             </div>
             <div className="container">
                 <Fade delay={900}>
@@ -35,7 +38,7 @@ export default function About() {
             </div>
             <div className="container">
                 <Fade delay={900}>
-                    <Link className="button" style={{ background: '#fff' }} to="/">MY WORK</Link>
+                    <Link className="button" style={{ background: '#fff' }} to="/">ABOUT ME</Link>
                 </Fade>
             </div>
         </div>

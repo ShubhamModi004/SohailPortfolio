@@ -29,7 +29,7 @@ export default function Work() {
                                     <p>UI / UX - Mobile App</p>
                                 </div>
                                 <div>
-                                    <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}}/></h6>
+                                    <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}}/></h6>
                                 </div>
                             </Fade>
                             </div>
@@ -45,7 +45,7 @@ export default function Work() {
                                     <p>UI / UX / Branding - Website</p>
                                 </div>
                                 <div>
-                                    <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
+                                    <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
                             </Fade>
                             </div>
@@ -61,7 +61,7 @@ export default function Work() {
                                     <p>UI / UX / Branding - Mobile App</p>
                                 </div>
                                 <div>
-                                    <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
+                                    <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
                             </Fade>
                             </div>
@@ -77,7 +77,7 @@ export default function Work() {
                                     <p>UI / UX - Website</p>
                                 </div>
                                 <div>
-                                    <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
+                                    <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
                             </Fade>
                             </div>

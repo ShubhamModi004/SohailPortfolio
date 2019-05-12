@@ -2,17 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15vh 0;
+    padding: 12vh 0;
     -webkit-align-items: center;
     justify-content: space-around;
     align-items: center;
-    min-height: 65vh;
+    min-height: 62vh;
     background: url(../../images/waveBottom.png) no-repeat #F2F2F2 bottom;
 }
 
 .aboutHeader{
     letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 2.3rem;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
 }
 
 .fields{
@@ -21,18 +24,20 @@
 
 .fields h1{
     font-size: 4rem;
+    font-weight: 600;
 }
 
 
 @media only screen and (max-width: 770px){
     .fields h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }   
 }
 
 .fields p{
     color: #C1C1C1;
-    
+    letter-spacing: 0.06rem;
+    font-size: 0.8rem;
 }
 
 .rotatedField{
@@ -49,11 +54,19 @@
 
 
 @media only screen and (max-width: 770px){
+    .about{
+        padding: 10vh 0;
+        -webkit-align-items: center;
+    }
     .rotate{
-        font-size: 5rem !important;
-        top: -4rem;
+        font-size: 4.5rem !important;
+        top: -3.5rem;
+        margin-left: 3.8rem;
     }
     .rotatedField{
-        bottom: -4rem;
+        bottom: -3rem;
+    }
+    .fields{
+        text-align: center;
     }
 }

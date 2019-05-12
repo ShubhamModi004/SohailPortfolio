@@ -5,6 +5,12 @@
     position: relative;
 }
 
+@media only screen and (max-width: 770px){
+    .hero{
+        min-height: 70vh;
+    }
+}
+
 .hero h2{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
@@ -12,16 +18,43 @@
 }
 
 .mainTag {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color: #B8B8B8;
     margin-bottom: 0rem !important;
+    line-height: 4vh;
 }
+
+.mainTagContainer{
+    margin-top: 10vh;
+}
+
+
 
 @media only screen and (max-width: 770px){
     .mainTag {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    .mainTagContainer{
+        margin-top: 5vh;
     }
 }
+
+
+.tagline{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+@media only screen and (max-width: 770px){
+    .tagline{
+        font-size: 1rem;
+        line-height: 2.6rem;
+    }
+}
+
+
 .backgroundImage{
     position: absolute;
     right: 0;

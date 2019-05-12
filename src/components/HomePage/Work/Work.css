@@ -6,7 +6,6 @@
     padding-bottom: 2rem; 
 }
 .workHeader{
-    padding: 0rem 1rem;
     font-weight: 500;
 }
 
@@ -53,10 +52,26 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 770px){
+    .productDetails{
+        padding: 1rem 0rem;
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .productDetails p{
+        margin-bottom: 8px;
+    }
+}
+
 .productDetails h6{
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.06rem;
-    font-size: 0.8rem;
+    font-size: 0.68rem;
+}
+
+.caseStudy{
+    letter-spacing: 0.1rem !important;
+    font-size: 0.58rem !important;
 }
 
 .productDetails p{
@@ -66,22 +81,26 @@
 
 
 
-.product{
+/* .product{
     padding: 0rem 2rem;
-}
+} */
 
 .products .product:nth-child(2n+1) {
     padding-right: 5.2rem;
+    padding-left: 0 !important;
 }
 .products .product:nth-child(2n) {
     padding-left: 5.2rem;
+    padding-right: 0 !important;
 }
 
 @media only screen and (max-width: 770px){
     .products .product:nth-child(2n+1) {
-        padding-right: 30px;
+        padding-right: 15px;
+        padding-left: 15px !important;
     }
     .products .product:nth-child(2n) {
-        padding-left: 30px;
+        padding-left: 15px;
+        padding-right: 15px !important;
     }
 }

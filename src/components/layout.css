@@ -67,17 +67,7 @@ p{
 
 
 
-.tagline{
-    color: #7d7d7d;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 2.5rem;
-}
-@media only screen and (max-width: 770px){
-    .tagline{
-        font-size: 1.3rem;
-        line-height: 2rem;
-    }
-}
+
 
 .btnS{
   font-size: 0.6rem;
