@@ -14,10 +14,10 @@ const Hero = () => {
             <div className="container heroSection">
                 <div>
                     <div>
-                        <Fade bottom duration={800} >
+                        <Fade bottom duration={1200} >
                             <p className="header mainTag">Hey There,</p>
                         </Fade>
-                        <Fade bottom duration={1200}>
+                        <Fade bottom duration={1400}>
                             <p className="mainTag"> I'm Sohail Mohammad </p>
                         </Fade>
                     </div>

@@ -18,12 +18,12 @@ export default function Work() {
                     <Fade ><h5 className="workHeader mb-4">Recent Projects</h5></Fade>
                 </div>
                 <div class="row products">
-                    <Fade cascade bottom delay={1500}>
                         <div className="col-md-6 col-12 product">
                             <Fade duration={1500}>
                                 <Spintly/>
                             </Fade>
-                            <div className="productDetails">
+                            <div className="productDetails overflowHide">
+                            <Fade cascade bottom delay={1000}>
                                 <div>
                                     <h6>Spintly Home Automation</h6>
                                     <p>UI / UX - Mobile App</p>
@@ -31,13 +31,15 @@ export default function Work() {
                                 <div>
                                     <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}}/></h6>
                                 </div>
+                            </Fade>
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
                             <Fade duration={1500}>
                                 <Faceo />
                             </Fade>
-                            <div className="productDetails">
+                            <div className="productDetails overflowHide">
+                            <Fade cascade bottom delay={1000}>
                                 <div>
                                     <h6>Faceo Skincare</h6>
                                     <p>UI / UX / Branding - Website</p>
@@ -45,13 +47,15 @@ export default function Work() {
                                 <div>
                                     <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
+                            </Fade>
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
                             <Fade duration={1500}>
                                 <DestinationX />
                             </Fade>
-                            <div className="productDetails">
+                            <div className="productDetails overflowHide">
+                            <Fade cascade bottom delay={1000}>
                                 <div>
                                     <h6>Destination X</h6>
                                     <p>UI / UX / Branding - Mobile App</p>
@@ -59,13 +63,15 @@ export default function Work() {
                                 <div>
                                     <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
+                            </Fade>
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
                             <Fade duration={1500}>
                                 <Uniloq />
                             </Fade>
-                            <div className="productDetails">
+                            <div className="productDetails overflowHide">
+                            <Fade cascade bottom delay={1000}>
                                 <div>
                                     <h6>Uniloq</h6>
                                     <p>UI / UX - Website</p>
@@ -73,9 +79,9 @@ export default function Work() {
                                 <div>
                                     <h6>Case Study<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem'}} /></h6>
                                 </div>
+                            </Fade>
                             </div>
                         </div>
-                    </Fade>
                 </div>
             </div>
         </div>

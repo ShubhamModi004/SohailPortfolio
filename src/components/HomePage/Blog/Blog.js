@@ -14,15 +14,17 @@ export default function Blog() {
     return (
         <div className="blog">
             <div className="container">
-                <div className="servicesSection">
-                    <h5 class="servicesHeader">Read what I have to say about design</h5>
+                <div className="servicesSection overflowHide">
+                    <Fade bottom>
+                        <h5 class="servicesHeader">Read what I have to say about design</h5>
+                    </Fade>
                 </div>
                 <div className="row blogContainer overflowHide">
                     <Fade bottom delay={1000}>
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <Design/>
-                                <Fade delay={1400}>
+                                <Fade delay={1400} distance={'20px'}>
                                     <h6 className="blogTitle">THE ROAD TO GOOD DESIGN</h6>
                                     <br/>
                                     <h7> READ <FaAngleRight /> </h7>
@@ -35,7 +37,7 @@ export default function Blog() {
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <UiUx/>
-                                <Fade delay={1400}>
+                                <Fade delay={1400} distance={'20px'}>
                                 <h6 className="blogTitle">THE Ux FLOW</h6>
                                 <br/>
                                 <h7> READ <FaAngleRight /> </h7>
@@ -44,11 +46,11 @@ export default function Blog() {
                             </div>
                         </div>
                     </Fade>
-                    <Fade bottom delay={1400}>
+                    <Fade bottom delay={1400} distance={'20px'}>
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <Principle/>
-                                <Fade delay={1400}>
+                                <Fade delay={1400} distance={'20px'}>
                                     <h6 className="blogTitle">PRINCIPLES OF DESIGN</h6>
                                     <br/>
                                     <h7> READ <FaAngleRight/> </h7>
