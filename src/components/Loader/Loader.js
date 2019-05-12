@@ -32,7 +32,7 @@ class Loader extends Component {
                     <div className="loader">
                         <Fade top when={show} duration={800}>
                             <div className="loaderLogo">
-                                <Logo />
+                                <img src={require('../../images/logo.png')} />
                             </div>
                         </Fade>
                     </div>
