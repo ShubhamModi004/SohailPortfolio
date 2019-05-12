@@ -16,6 +16,12 @@
     color: #B8B8B8;
     margin-bottom: 0rem !important;
 }
+
+@media only screen and (max-width: 770px){
+    .mainTag {
+        font-size: 1.2rem;
+    }
+}
 .backgroundImage{
     position: absolute;
     right: 0;

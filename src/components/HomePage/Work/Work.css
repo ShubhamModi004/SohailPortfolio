@@ -14,6 +14,8 @@
 
 .products{
     margin-bottom: 8vh;
+    cursor: pointer;
+    overflow: hidden;
 }
 @media only screen and (max-width: 770px){
     .products{
@@ -25,7 +27,24 @@
     margin-top: 2rem; 
     width: 100%;
     height: 75%;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out; 
+    transition: 0.3s ease-in-out; 
 }
+
+.product .gatsby-image-wrapper:hover{
+    transform: scale(0.95);
+}
+
+.product .gatsby-image-wrapper img{
+    -webkit-transition: 0.3s ease-in-out !important;
+    -moz-transition: 0.3s ease-in-out !important; 
+    transition: 0.3s ease-in-out !important; 
+}
+.product .gatsby-image-wrapper:hover img{
+    transform: scale(1.19);
+}
+
 
 
 .productDetails{

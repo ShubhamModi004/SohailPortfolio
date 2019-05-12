@@ -39,32 +39,5 @@
     
 }
 
-.aboutHeader{
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-}
 
-.fields{
-    padding: 1rem 1rem;
-}
-
-.fields h1{
-    font-size: 4rem;
-}
-
-.fields p{
-    color: #C1C1C1;
-    
-}
-
-.rotatedField{
-    bottom: -5rem;
-}
-
-.rotate{
-    transform: rotate(90deg);
-    position: absolute;
-    font-size: 6rem !important;
-    top: -5rem;
-}
 

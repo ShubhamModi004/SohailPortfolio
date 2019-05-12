@@ -27,7 +27,7 @@ export default function Blog() {
                     <div className="col-md-4 col-12">
                         <div className="cardBlog">
                             <UiUx/>
-                            <h6 className="blogTitle">THE UiUx FLOW</h6>
+                            <h6 className="blogTitle">THE Ux FLOW</h6>
                             <br/>
                             <h7> READ <FaAngleRight /> </h7>
                             <br/>

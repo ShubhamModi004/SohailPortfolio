@@ -23,6 +23,13 @@
     font-size: 4rem;
 }
 
+
+@media only screen and (max-width: 770px){
+    .fields h1{
+        font-size: 3rem;
+    }   
+}
+
 .fields p{
     color: #C1C1C1;
     
@@ -37,5 +44,16 @@
     position: absolute;
     font-size: 6rem !important;
     top: -5rem;
+    margin-left: 0.5rem;
 }
 
+
+@media only screen and (max-width: 770px){
+    .rotate{
+        font-size: 5rem !important;
+        top: -4rem;
+    }
+    .rotatedField{
+        bottom: -4rem;
+    }
+}
