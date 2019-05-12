@@ -46,7 +46,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </Fade>
-                    <Fade bottom delay={1400} distance={'20px'}>
+                    <Fade bottom delay={1400}>
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <Principle/>
