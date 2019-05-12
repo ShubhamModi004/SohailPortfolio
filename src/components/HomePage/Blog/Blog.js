@@ -19,9 +19,9 @@ export default function Blog() {
                         <h5 class="servicesHeader">Read what I have to say about design</h5>
                     </Fade>
                 </div>
-                <div className="row blogContainer overflowHide">
+                <div className="blogContainer overflowHide">
                     <Fade bottom delay={1000}>
-                        <div className="col-md-4 col-12">
+                        <div className="">
                             <div className="cardBlog">
                                 <Design/>
                                 <Fade  distance={'20px'}>
@@ -34,11 +34,11 @@ export default function Blog() {
                         </div>
                     </Fade>
                     <Fade bottom delay={1200}>
-                        <div className="col-md-4 col-12">
+                        <div className="">
                             <div className="cardBlog">
                                 <UiUx/>
                                 <Fade  distance={'20px'}>
-                                <h6 className="blogTitle">THE Ux FLOW</h6>
+                                <h6 className="blogTitle">THE UX FLOW</h6>
                                 <br/>
                                 <h7> READ <FaAngleRight /> </h7>
                                 <br/>
@@ -47,7 +47,7 @@ export default function Blog() {
                         </div>
                     </Fade>
                     <Fade bottom delay={1400}>
-                        <div className="col-md-4 col-12">
+                        <div className="">
                             <div className="cardBlog">
                                 <Principle/>
                                 <Fade  distance={'20px'}>

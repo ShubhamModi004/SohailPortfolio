@@ -9,18 +9,20 @@
     background: url(../../../images/wave.png) no-repeat #F2F2F2 center;
     width: 100%;
     margin-left: 0;
-    padding: 6rem;
+    padding: 6rem 0;
     position: relative;
     overflow: hidden;
 }
 @media only screen and (max-width: 770px){
     .myprocess{
-        padding: 2rem;
-        min-height: 20rem;
+        min-height: 15rem;
+        padding: 2rem 0;
     }
     .backgroundSection{
-        display: none;
+        display: block;
+        width: 45% !important;
     }
+
 }
 
 

@@ -7,10 +7,24 @@
     font-size: 0.74rem;
 }
 
-.servicesHeader{
-    font-weight: 500;
+.servicesSection h5{
+    font-weight: 600;
     margin-bottom: 4rem;
+    margin-bottom: 3.3rem;
+
 }
+
+.blogContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 770px){
+    .blogContainer{
+        display: block;
+    }
+}
+
 
 .blogSectionQuote{
     display: flex;
@@ -26,7 +40,7 @@
 }
 
 .cardBlog{
-    width: 75%;
+    width: 16rem;
     position: relative;
     cursor: pointer;
     -webkit-transition: 0.3s  ease-in-out;
@@ -68,11 +82,12 @@
 .cardBlog h6{
     letter-spacing: 0.01rem;
     line-height: 1.9rem;
+    padding-top: 1.5rem; 
 }
 
 .cardBlog h7{
     padding: 2rem 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 700; 
 }
 
