@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Titillium+Web:200,300,400,700|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 body{
   margin: 0;
@@ -15,13 +15,14 @@ body{
   margin-left: -7px;
 }
 
+
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #272727;
 }
 p{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #7d7d7d;
   font-weight: light;
 }
@@ -41,7 +42,7 @@ p{
 
 .getinTouch a{
   color: #272727 !important;
-  font-family: 'Titillium Web', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -68,7 +69,7 @@ p{
 
 .tagline{
     color: #7d7d7d;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2.5rem;
 }
 @media only screen and (max-width: 770px){
@@ -82,7 +83,7 @@ p{
   font-size: 0.6rem;
   letter-spacing: 0.01rem;
   background: #f7f7f7;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #272727 !important;
   font-weight: bold;
   padding: 0.6rem 0.7rem;
