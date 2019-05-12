@@ -36,7 +36,7 @@ class IndexPage extends Component {
 		const {render } = this.state;
 		return (
 			(!render ? <Loader/> :
-				<Fade delay={1200} duration={400}>
+				<Fade delay={1000}>
 					<Layout>
 						<Header />
 						<Hero />

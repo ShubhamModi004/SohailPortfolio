@@ -20,7 +20,7 @@ export default function Work() {
                 <div class="row products">
                     <Fade cascade bottom delay={1500}>
                         <div className="col-md-6 col-12 product">
-                            <Fade delay={1200}>
+                            <Fade duration={1500}>
                                 <Spintly/>
                             </Fade>
                             <div className="productDetails">
@@ -34,7 +34,7 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
-                            <Fade delay={1200}>
+                            <Fade duration={1500}>
                                 <Faceo />
                             </Fade>
                             <div className="productDetails">
@@ -48,7 +48,7 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
-                            <Fade delay={1200}>
+                            <Fade duration={1500}>
                                 <DestinationX />
                             </Fade>
                             <div className="productDetails">
@@ -62,7 +62,7 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="col-md-6 col-12 product">
-                            <Fade delay={1200}>
+                            <Fade duration={1500}>
                                 <Uniloq />
                             </Fade>
                             <div className="productDetails">
