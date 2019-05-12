@@ -13,7 +13,7 @@ import Fade from 'react-reveal/Fade';
 export default function Blog() {
     return (
         <div className="blog">
-            <div className="container">
+            <div className="container" style={{ padding: 0}}>
                 <div className="servicesSection overflowHide">
                     <Fade bottom>
                         <h5 class="servicesHeader">Read what I have to say about design</h5>
