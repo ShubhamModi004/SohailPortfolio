@@ -23,7 +23,7 @@ export default function Work() {
                                 <Spintly/>
                             </Fade>
                             <div className="productDetails overflowHide">
-                            <Fade cascade bottom delay={1000}>
+                            <Fade cascade bottom>
                                 <div>
                                     <h6>Spintly Home Automation</h6>
                                     <p>UI / UX - Mobile App</p>
@@ -39,7 +39,7 @@ export default function Work() {
                                 <Faceo />
                             </Fade>
                             <div className="productDetails overflowHide">
-                            <Fade cascade bottom delay={1000}>
+                            <Fade cascade bottom>
                                 <div>
                                     <h6>Faceo Skincare</h6>
                                     <p>UI / UX / Branding - Website</p>
@@ -55,7 +55,7 @@ export default function Work() {
                                 <DestinationX />
                             </Fade>
                             <div className="productDetails overflowHide">
-                            <Fade cascade bottom delay={1000}>
+                            <Fade cascade bottom>
                                 <div>
                                     <h6>Destination X</h6>
                                     <p>UI / UX / Branding - Mobile App</p>
@@ -71,7 +71,7 @@ export default function Work() {
                                 <Uniloq />
                             </Fade>
                             <div className="productDetails overflowHide">
-                            <Fade cascade bottom delay={1000}>
+                            <Fade cascade bottom>
                                 <div>
                                     <h6>Uniloq</h6>
                                     <p>UI / UX - Website</p>

@@ -24,7 +24,7 @@ export default function Blog() {
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <Design/>
-                                <Fade delay={1400} distance={'20px'}>
+                                <Fade  distance={'20px'}>
                                     <h6 className="blogTitle">THE ROAD TO GOOD DESIGN</h6>
                                     <br/>
                                     <h7> READ <FaAngleRight /> </h7>
@@ -37,7 +37,7 @@ export default function Blog() {
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <UiUx/>
-                                <Fade delay={1400} distance={'20px'}>
+                                <Fade  distance={'20px'}>
                                 <h6 className="blogTitle">THE Ux FLOW</h6>
                                 <br/>
                                 <h7> READ <FaAngleRight /> </h7>
@@ -50,7 +50,7 @@ export default function Blog() {
                         <div className="col-md-4 col-12">
                             <div className="cardBlog">
                                 <Principle/>
-                                <Fade delay={1400} distance={'20px'}>
+                                <Fade  distance={'20px'}>
                                     <h6 className="blogTitle">PRINCIPLES OF DESIGN</h6>
                                     <br/>
                                     <h7> READ <FaAngleRight/> </h7>
