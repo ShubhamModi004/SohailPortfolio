@@ -6,17 +6,17 @@ import { StaticQuery, graphql, Link  } from "gatsby"
 import './header.css';
 
 const Header = ({ siteTitle }) => (
-  <header class="header container">
-      <div class="logo">
+  <header className="header container">
+      <div className="logo">
         <Link to="/">
           <Logo />
         </Link>
       </div>
       {/* Desktop Menu */}
-      <div class="header-links">
+      <div className="header-links">
         <Link to="/">WORK</Link>
-        <Link to="/">ABOUT</Link>
-        <Link to="/">PROCESS</Link>
+        <Link to="/AboutPage">ABOUT</Link>
+        <Link to="/contact">PROCESS</Link>
         <Link className="blck" to="/">GET IN TOUCH</Link>
       </div>
 
