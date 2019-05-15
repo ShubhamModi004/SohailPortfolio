@@ -44,12 +44,10 @@
 
 .header-links-hamburger{
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100vw;
   height: 100vh;
   background: #fff;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,7 +249,7 @@ nav ul a:hover {
 /* hamburger menu */
 .section {
   padding: 3rem 0;
-  z-index: 3;
+  z-index: 3 !important;
   position: relative;
 }
 @media only screen and (min-width: 576px) {
