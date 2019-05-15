@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="heroAbout">
             <div className="container heroSection">
                 <div>
                     <div className="mainTagContainer">

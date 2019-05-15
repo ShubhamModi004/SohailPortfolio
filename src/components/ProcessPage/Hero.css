@@ -1,4 +1,4 @@
-.heroAbout{
+.hero{
     min-height: 60vh;
     width: 100vw;
     overflow: hidden;
@@ -6,12 +6,12 @@
 }
 
 @media only screen and (max-width: 770px){
-    .heroAbout{
-        min-height: 30vh;
+    .hero{
+        min-height: 75vh;
     }
 }
 
-.heroAbout h2{
+.hero h2{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     color: #272727;
@@ -55,29 +55,29 @@
 }
 
 
-.backgroundImage{
+.backgroundImage-process{
     position: absolute;
     right: 0;
     height: auto;
-    width: 45vw;
+    width: 28vw;
     overflow: hidden;
     z-index: -2;
     bottom: 0;
 }
 
 @media (max-width: 990px) {
-  .backgroundImage{
-        width: 100%; 
+  .backgroundImage-process{
+        width: 40%; 
     }
 }
 @media (max-width: 770px) {
-  .backgroundImage{
-        width: 100%; 
+  .backgroundImage-process{
+        width: 80%; 
     }
 }
 
 
-.backgroundImage  .gatsby-image-wrapper img{
+.backgroundImage-process  .gatsby-image-wrapper img{
     height: 90vh;
     width: 100%; 
 }

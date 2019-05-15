@@ -14,9 +14,9 @@ const Header = ({ siteTitle }) => (
       </div>
       {/* Desktop Menu */}
       <div className="header-links">
-        <Link to="/">WORK</Link>
-        <Link to="/AboutPage">ABOUT</Link>
-        <Link to="/contact">PROCESS</Link>
+        <Link to="/" activeClassName='active'>WORK</Link>
+        <Link to="/AboutPage" activeClassName='active'>ABOUT</Link>
+        <Link to="/ProcessPage" activeClassName='active'>PROCESS</Link>
         <Link className="blck" to="/">GET IN TOUCH</Link>
       </div>
 
