@@ -1,7 +1,4 @@
 import React, {Component} from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image";
-import { StaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -35,9 +32,13 @@ class IndexPage extends Component {
 	render() {
 		const {render } = this.state;
 		return (
-			(!render ? <Loader/> :
+			(!render ? 
+				<Loader>
+					<SEO title="Home" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+				</Loader> :
 				<Fade delay={100}>
 					<Layout>
+						<SEO title="Home" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
 						<Header />
 						<Hero />
 						<About />

@@ -1,10 +1,7 @@
 import React from 'react'
 import "./footer.css"
-import { FaSortUp } from 'react-icons/fa';
-import { StaticQuery, graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
-
-
 
 export default function Footer() {
     return (
