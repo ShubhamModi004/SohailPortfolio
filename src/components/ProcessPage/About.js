@@ -1,5 +1,4 @@
 import React from 'react'
-import "./About.css"
 import { FaSortUp } from 'react-icons/fa';
 import { StaticQuery, graphql, Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
