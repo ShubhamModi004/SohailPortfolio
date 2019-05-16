@@ -58,6 +58,7 @@
     .about{
         padding: 10vh 0;
         -webkit-align-items: center;
+        align-items: center;
     }
     .rotate {
         font-size: 4.5rem !important;
