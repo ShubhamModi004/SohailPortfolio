@@ -61,8 +61,9 @@
     }
     .rotate{
         font-size: 4.5rem !important;
+        font-weight: 300 !important;
         top: -3.5rem;
-        margin-left: 3.8rem;
+        left: -4%;
     }
     .rotatedField{
         bottom: -3rem;

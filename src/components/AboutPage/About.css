@@ -1,4 +1,4 @@
-.about{
+/* .about{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,12 +57,15 @@
 @media only screen and (max-width: 770px){
     .about{
         padding: 10vh 0;
+        align-items: center;
         -webkit-align-items: center;
     }
     .rotate{
         font-size: 4.5rem !important;
         top: -3.5rem;
-        margin-left: 3.8rem;
+        position: relative;
+        margin-left: 50%; 
+        font-weight: 300 !important;
     }
     .rotatedField{
         bottom: -3rem;
@@ -70,4 +73,4 @@
     .fields{
         text-align: center;
     }
-}
+} */
