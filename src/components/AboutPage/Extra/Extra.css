@@ -1,5 +1,11 @@
 .heroExtra{
-    min-height: 80vh;
+    min-height: 45vh;
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 770px){
+    .heroExtra{
+        min-height: 60vh;
+    }
 }
