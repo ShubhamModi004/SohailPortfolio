@@ -65,6 +65,7 @@
         font-weight: 300 !important;
         top: -3.5rem;
         left: 38%;
+        margin-left: 0;
         transform: translateX(-50%) !important;
         transform: rotate(90deg) !important;
     }
