@@ -59,11 +59,13 @@
         padding: 10vh 0;
         -webkit-align-items: center;
     }
-    .rotate{
+    .rotate {
         font-size: 4.5rem !important;
         font-weight: 300 !important;
         top: -3.5rem;
-        left: -4%;
+        left: 38%;
+        transform: translateX(-50%) !important;
+        transform: rotate(90deg) !important;
     }
     .rotatedField{
         bottom: -3rem;
