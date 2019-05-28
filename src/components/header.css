@@ -396,7 +396,7 @@ nav ul a:hover {
   margin-top: -4.5rem;
   height: 110vh;
   width: 100vw !important;
-
+  display: block;
 }
 .bm-overlay{
   background: #fff !important;

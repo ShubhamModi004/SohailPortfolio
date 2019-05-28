@@ -113,7 +113,7 @@ footerContent{
     height: auto;
     width: 35%;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
     bottom: 0;
 }
 
