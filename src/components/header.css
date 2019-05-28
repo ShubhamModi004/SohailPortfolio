@@ -390,7 +390,7 @@ nav ul a:hover {
 .bm-menu-wrap{
   background: #fff;
   margin-top: -4.5rem;
-  height: 110vh !important;
+  height: 100%;
   width: 100vw !important;
   display: block;
 }
