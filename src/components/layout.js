@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
       <>
       <div id="outer-container">
           <Header/>
-          <main id="page-wrap">{children}</main>
+          <main id="page-wrap" class="body-container">{children}</main>
           <Footer/>
         </div>
       </>

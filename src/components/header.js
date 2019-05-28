@@ -13,13 +13,10 @@ class Header extends Component{
   state={
     isActive: false
   }
-  showSettings(event) {
-    event.preventDefault();
-  }
-
 
   toggleHamburger = () => {
-    const { isActive } = this.state
+    const { isActive } = this.state;
+    console.log('something happened')
     this.setState({
       isActive: !isActive
     })
@@ -28,7 +25,7 @@ class Header extends Component{
   render(){
     const { isActive } = this.state
     return(
-      <header className="header container">
+      <header className={"header container " + (isActive ? 'hideBody' : 'dontHide')}>
         <div className="logo">
           <Link to="/">
             <Logo />
@@ -46,11 +43,13 @@ class Header extends Component{
 
         {/* Mobile Menu */}
         <div className="mobile">
-          <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right >
+          <div>
+            <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right onStateChange={() => this.toggleHamburger()}>
             <Link className="menu-item" to="/" activeClassName='active'>WORK</Link>
             <Link className="menu-item" to="/AboutPage" activeClassName='active'>ABOUT</Link>
             <Link className="menu-item" to="/ProcessPage" activeClassName='active'>PROCESS</Link>
           </Menu>
+          </div>
         </div>
 
       </header>

@@ -236,6 +236,9 @@ nav ul a:hover {
 
 .bm-item-list .active {
   position: relative;
+  color: #000;
+  outline: none;
+  text-decoration: none;
 }
 .bm-item-list .active:before {
   position: absolute;
@@ -357,6 +360,9 @@ nav ul a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100vw;
+
 }
 
 .bm-item-list a{
@@ -366,8 +372,12 @@ nav ul a:hover {
   padding: 2rem 0;
 
 }
-.bm-item-list a:hover{
+.bm-item-list a:hover, 
+.bm-item-list a:focus,
+.bm-item-list a:active{
   color: #000;
+  outline: none;
+  text-decoration: none;
 }
 
 
@@ -397,16 +407,16 @@ nav ul a:hover {
 
 .bm-menu-wrap{
   background: #fff;
-  height: 100% !important;
-  position: absolute;
   top: 0 !important;
+  bottom: 0 !important;
   right: 0 !important;
   left: 0 !important;
+  height: 100vh !important;
   width: 100vw !important;
-  display: block;
 }
 .bm-overlay{
   background: #fff !important;
+  display: none;
 }
 
 .bm-burger-button button{
@@ -439,3 +449,11 @@ nav ul a:hover {
   top: 3vh !important;
   right: 5vw;
 }
+
+.hideBody ~ .body-container{
+  display: none;
+}
+
+.dontHide ~ .body-container{
+  display: block;
+} 

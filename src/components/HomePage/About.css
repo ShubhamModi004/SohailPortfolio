@@ -10,6 +10,18 @@
     background: url(../../images/waveBottom.png) no-repeat #F2F2F2 bottom;
 }
 
+.about-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12vh 0;
+    -webkit-align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 62vh;
+    background: url(../../images/waveBottom.png) no-repeat #F2F2F2 bottom;
+}
+
 .aboutHeader{
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -18,6 +30,7 @@
     font-size: 1.1rem;
     padding: 0;
 }
+
 
 .fields{
     padding: 1rem 1rem;
@@ -76,3 +89,4 @@
         text-align: center;
     }
 }
+
