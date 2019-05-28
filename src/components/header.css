@@ -454,6 +454,7 @@ nav ul a:hover {
   display: none;
 }
 
+
 .dontHide ~ .body-container{
   display: block;
 } 
