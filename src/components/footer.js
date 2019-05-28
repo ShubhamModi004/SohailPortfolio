@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-madeBy">
-                <p>Made by <Link to="https://github.com/ShubhamModi004">Shubham Modi</Link></p>
+                <p>Made by <Link to="https://github.com/ShubhamModi004"> Shubham Modi</Link></p>
             </div>
         </div>
     )
