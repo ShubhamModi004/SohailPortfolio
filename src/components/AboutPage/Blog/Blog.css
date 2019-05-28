@@ -18,6 +18,17 @@
     display: flex;
     justify-content: space-between;
 }
+.blogContainer a{
+    color: #000;
+}
+
+.blogContainer a:hover, 
+.blogContainer a:active, 
+.blogContainer a:focus
+{
+    color: #000;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 770px){
     .blogContainer{

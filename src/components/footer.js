@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="footerBottom container">
                 <div className="footerContent">
                     <h4>Let's get you up that ladder</h4>
-                    <Link className="blck" to="/">GET IN TOUCH</Link>
+                    <a className="blck" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
                 </div>
                 <div className="calltoActions">
                     <Link>lifeofpixels0707@gmail.com</Link>

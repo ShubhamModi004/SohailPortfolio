@@ -37,7 +37,7 @@ class Header extends Component{
             <Link to="/" activeClassName='active'>WORK</Link>
             <Link to="/AboutPage" activeClassName='active'>ABOUT</Link>
             <Link to="/ProcessPage" activeClassName='active'>PROCESS</Link>
-            <Link className="blck" to="/">GET IN TOUCH</Link>
+            <a className="blck" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
           </div>
         </div>
 

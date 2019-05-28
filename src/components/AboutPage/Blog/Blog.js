@@ -21,17 +21,18 @@ export default function Blog() {
                 </div>
                 <div className="blogContainer overflowHide">
                     <Fade bottom delay={1000}>
+                        <a href="https://blog.prototypr.io/a-deeper-understanding-to-users-well-being-4da82452ad68">
                         <div className="">
                             <div className="cardBlog">
                                 <Design/>
                                 <Fade  distance={'20px'}>
-                                    <h6 className="blogTitle">THE ROAD TO GOOD DESIGN</h6>
                                     <br/>
                                     <h7> READ <FaAngleRight /> </h7>
                                     <br/>
                                 </Fade>
                             </div>
                         </div>
+                        </a>
                     </Fade>
                     <Fade bottom delay={1200}>
                         <div className="">
