@@ -1,11 +1,8 @@
 .header{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 10vh !important;  
   position: relative;
-  z-index: 2;
-  overflow: hidden;
+  z-index: 1100 ;
 }
 
 .desktop{
@@ -373,7 +370,7 @@ nav ul a:hover {
 }
 .bm-burger-button span span{
   background: #000 !important;
-  width: 8rem !important;
+  width: 5rem !important;
   height: 0.2rem !important;
   right: 0px !important;
   position: absolute !important;
@@ -403,7 +400,7 @@ nav ul a:hover {
 }
 
 .bm-burger-button button{
-  width: 10rem !important;
+  width: 5rem !important;
   right: 0px !important;
   position: absolute !important;
   left: 80vw !important;
