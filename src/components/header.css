@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-top: 4rem;
 }
 
 .desktop{
@@ -17,14 +18,16 @@
     display: none;
   }
   .header{
-    margin-top: 2rem !important; 
+    padding-top: 2rem;
   }
   .mobile{
     display: block;
   }
 }
 
-
+.header-links {
+  padding-top: 1.5rem; 
+}
 
 .header-links a{
   margin-left: 6rem;
@@ -377,19 +380,18 @@ nav ul a:hover {
 }
 
 .bm-burger-button span{
-  margin-top: 1.5rem !important;
+  margin-top: 3.3rem !important;
 }
 .bm-burger-button span span:nth-child(2){
   top: 15% !important;
+  height: 0.15rem !important;
 }
 .bm-burger-button span span:nth-child(3){
   top: 30% !important;
-  height: 0.15rem !important;
 }
 
 .bm-menu-wrap{
   background: #fff;
-  margin-top: -4.5rem;
   height: 100%;
   width: 100vw !important;
   display: block;
