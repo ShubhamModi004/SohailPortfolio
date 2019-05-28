@@ -39,7 +39,6 @@ class IndexPage extends Component {
 				<Fade delay={100}>
 					<Layout>
 						<SEO title="Home" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
-						<Header />
 						<Hero />
 						<About />
 						<Work />

@@ -29,6 +29,9 @@ export default function Footer() {
                     <Link>+91 81975 58162</Link>
                 </div>
             </div>
+            <div className="footer-madeBy">
+                <p>Made by <Link to="https://github.com/ShubhamModi004">Shubham Modi</Link></p>
+            </div>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React, {Component} from "react"
 import Img from "gatsby-image";
 import { StaticQuery, graphql, Link  } from "gatsby"
 import Fade from 'react-reveal/Fade';
+import { slide as Menu } from 'react-burger-menu'
 
 
 import './header.css';
@@ -12,6 +13,10 @@ class Header extends Component{
   state={
     isActive: false
   }
+  showSettings(event) {
+    event.preventDefault();
+  }
+
 
   toggleHamburger = () => {
     const { isActive } = this.state
@@ -41,29 +46,11 @@ class Header extends Component{
 
         {/* Mobile Menu */}
         <div className="mobile">
-        <section className="section" onClick={() => this.toggleHamburger()}>
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className={"hamburger hamburger--v1 js-toggle " + (isActive ? 'is-active' : '')}>
-                  <div className="hamburger__bar "></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {(isActive ?
-          <Fade delay={100}>
-          <div className="header-links-hamburger">
-            <Link to="/" activeClassName='active'>WORK</Link>
-            <Link to="/AboutPage" activeClassName='active'>ABOUT</Link>
-            <Link to="/ProcessPage" activeClassName='active'>PROCESS</Link>
-            <Link className="blck" to="/">GET IN TOUCH</Link>
-          </div>
-          </Fade>
-        :
-          <div/>
-        )}
+          <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right >
+            <Link className="menu-item" to="/" activeClassName='active'>WORK</Link>
+            <Link className="menu-item" to="/AboutPage" activeClassName='active'>ABOUT</Link>
+            <Link className="menu-item" to="/ProcessPage" activeClassName='active'>PROCESS</Link>
+          </Menu>
         </div>
 
       </header>
