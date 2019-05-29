@@ -20,7 +20,7 @@ export default function Blog() {
                     </Fade>
                 </div>
                 <div className="blogContainer overflowHide">
-                    <Fade bottom delay={1000}>
+                    <Fade bottom delay={100}>
                         <a href="https://blog.prototypr.io/a-deeper-understanding-to-users-well-being-4da82452ad68">
                             <div className="">
                                 <div className="cardBlog">
@@ -34,7 +34,7 @@ export default function Blog() {
                             </div>
                         </a>
                     </Fade>
-                    <Fade bottom delay={1200}>
+                    <Fade bottom delay={300}>
                         <div className="">
                             <div className="cardBlog">
                                 <UiUx />
@@ -47,7 +47,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </Fade>
-                    <Fade bottom delay={1400}>
+                    <Fade bottom delay={500}>
                         <div className="">
                             <div className="cardBlog">
                                 <Principle />
