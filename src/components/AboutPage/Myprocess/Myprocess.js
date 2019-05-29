@@ -10,11 +10,11 @@ export default function Myprocess() {
     return (
         <div className="myprocess">
             <div className="container">
-                <Fade bottom delay={800}><h5 className="aboutHeader">Get inside my mind,<br />
+                <Fade bottom delay={300}><h5 className="aboutHeader">Get inside my mind,<br />
                     know my design process</h5></Fade>
             </div>
             <div className="container">
-                <Fade delay={900}>
+                <Fade delay={400}>
                     <Link className="button" style={{ background: '#fff' }} to="/ProcessPage">MY PROCESS</Link>
                 </Fade>
             </div>

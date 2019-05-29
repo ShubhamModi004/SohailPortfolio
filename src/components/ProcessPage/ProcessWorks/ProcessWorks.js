@@ -25,11 +25,11 @@ export default function ProcessWorks() {
     return (
         <div className="processWorks">
             <div className="container">
-                <Fade bottom delay={800}>
+                <Fade bottom delay={300}>
                     <h5 className="aboutHeader">The process that works the best for me</h5>
                 </Fade>
                 <div>
-                    <Fade cascade delay={1000}>
+                    <Fade cascade delay={400}>
                         {/* 1 */}
                         <div className="process-works-container">
                             <div className="d-flex">
@@ -62,7 +62,7 @@ export default function ProcessWorks() {
                         </div>
                     </Fade>
                     {/* 2 */}
-                    <Fade cascade delay={1000}>
+                    <Fade cascade delay={400}>
                         <div className="process-works-container">
                             <div className="d-flex">
                                 <h5 className="aboutHeader">02.</h5>
@@ -94,7 +94,7 @@ export default function ProcessWorks() {
                         </div>
                     </Fade>
                     {/* 3 */}
-                    <Fade cascade delay={1000}>
+                    <Fade cascade delay={400}>
                         <div className="process-works-container">
                             <div className="d-flex">
                                 <h5 className="aboutHeader">03.</h5>
@@ -126,7 +126,7 @@ export default function ProcessWorks() {
                         </div>
                     </Fade>
                     {/* 4 */}
-                    <Fade cascade delay={1000}>
+                    <Fade cascade delay={400}>
                         <div className="process-works-container">
                             <div className="d-flex">
                                 <h5 className="aboutHeader">04.</h5>
@@ -158,7 +158,7 @@ export default function ProcessWorks() {
                         </div>
                     </Fade>
                     {/* 5 */}
-                    <Fade cascade delay={1000}>
+                    <Fade cascade delay={400}>
                         <div className="process-works-container">
                             <div className="d-flex">
                                 <h5 className="aboutHeader">05.</h5>

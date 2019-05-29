@@ -10,14 +10,14 @@ const Hero = () => {
             <div className="container heroSection">
                 <div>
                     <div className="mainTagContainer">
-                        <Fade bottom duration={1200} >
+                        <Fade bottom duration={120} >
                             <p className="mainTag">A little more</p>
                         </Fade>
-                        <Fade bottom duration={1400}>
+                        <Fade bottom duration={140}>
                             <p className="mainTag"> about me </p>
                         </Fade>
                     </div>
-                    <Fade delay={1500}><h4 className="tagline" style={{ marginTop: '1.8rem' }}>What's me minus design <br/>equal to?</h4></Fade>
+                    <Fade delay={150}><h4 className="tagline" style={{ marginTop: '1.8rem' }}>What's me minus design <br />equal to?</h4></Fade>
                 </div>
             </div>
         </div>

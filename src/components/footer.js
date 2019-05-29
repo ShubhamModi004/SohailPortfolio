@@ -8,10 +8,10 @@ export default function Footer() {
         <div>
             <div className="footer">
                 <div className="container">
-                    <Fade bottom delay={800}><h5 className="footerHeader">Catch me where action happens</h5></Fade>
+                    <Fade bottom delay={300}><h5 className="footerHeader">Catch me where action happens</h5></Fade>
                 </div>
                 <div className="container">
-                    <Fade delay={900}>
+                    <Fade delay={400}>
                         <div className="socialLinks">
                             <a href="https://dribbble.com/sohail_minimalist"><img src={require('../images/Dribble.png')} /></a>
                             <a href="https://www.instagram.com/sohail_minimalist/"><img src={require('../images/Instagram.png')} /></a>

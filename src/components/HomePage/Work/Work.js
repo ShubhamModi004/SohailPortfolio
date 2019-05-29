@@ -20,7 +20,7 @@ export default function Work() {
                 <div class="row products">
                     <div className="col-md-6 col-12 product">
                         <a href="https://www.behance.net/gallery/80752135/Design-for-Home-Automation" target="_blank">
-                            <Fade duration={1500}>
+                            <Fade duration={1000}>
                                 <Spintly />
                             </Fade>
                             <div className="productDetails overflowHide">
@@ -38,7 +38,7 @@ export default function Work() {
                     </div>
                     <div className="col-md-6 col-12 product">
                         <a href="https://www.behance.net/gallery/80589003/MTRS-Navigation-Tracking" target="_blank">
-                            <Fade duration={1500}>
+                            <Fade duration={1000}>
                                 <Mtrs />
                             </Fade>
                             <div className="productDetails overflowHide">
@@ -56,7 +56,7 @@ export default function Work() {
                     </div>
                     <div className="col-md-6 col-12 product">
                         <a href="https://www.behance.net/gallery/80675577/Destination-x-Travel-Community-App" target="_blank">
-                            <Fade duration={1500}>
+                            <Fade duration={1000}>
                                 <DestinationX />
                             </Fade>
                             <div className="productDetails overflowHide">
@@ -73,7 +73,7 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="col-md-6 col-12 product">
-                        <Fade duration={1500}>
+                        <Fade duration={1000}>
                             <Digit88 />
                         </Fade>
                         <div className="productDetails overflowHide">
