@@ -9,7 +9,7 @@ export default function About() {
             <div className="container">
                 <Fade bottom delay={800}>
                     <h5 className="aboutHeader">Born & raised in Goa, a holiday destination.
-                    <br/>My life has been full of adventures, beaches, good food & great people.
+                    <br />My life has been full of adventures, beaches, good food & great people.
                     </h5>
                 </Fade>
             </div>
@@ -35,11 +35,11 @@ export default function About() {
                     </div>
                 </Fade>
             </div>
-            <div className="container">
+            {/* <div className="container">
                 <Fade delay={900}>
                     <Link className="button" style={{ background: '#fff' }} to="/">ABOUT ME</Link>
                 </Fade>
-            </div>
+            </div> */}
         </div>
     )
 }

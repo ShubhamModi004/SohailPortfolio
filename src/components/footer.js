@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="container">
                     <Fade delay={900}>
                         <div className="socialLinks">
-                            <a href="https://dribbble.com/sohail_minimalist"><img src={require('../images/Dribble.png')}/></a>
+                            <a href="https://dribbble.com/sohail_minimalist"><img src={require('../images/Dribble.png')} /></a>
                             <a href="https://www.instagram.com/sohail_minimalist/"><img src={require('../images/Instagram.png')} /></a>
                         </div>
                     </Fade>
@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="footerBottom container">
                 <div className="footerContent">
                     <h4>Let's get you up that ladder</h4>
-                    <a className="blck" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
+                    <a className="blck" data-mce-href="mailto:Lifeofpixels0707@gmail.com" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
                 </div>
                 <div className="calltoActions">
                     <Link>lifeofpixels0707@gmail.com</Link>

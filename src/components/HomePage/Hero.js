@@ -21,11 +21,11 @@ const Hero = () => {
                             <p className="mainTag"> I'm Sohail Mohammad </p>
                         </Fade>
                     </div>
-                    
-                    <Fade delay={1500}><h4 className="tagline" style={{marginTop: '1.8rem'}}>A Digital Designer from Bangalore, India.</h4></Fade>
+
+                    <Fade delay={1500}><h4 className="tagline" style={{ marginTop: '1.8rem' }}>A Digital Designer from Bangalore, India.</h4></Fade>
                     <Fade delay={1500}><h4 className="tagline">Specialized in User Interface & User Experience Design</h4></Fade>
 
-                    <div style={{ marginTop: '2rem'}}><Fade delay={1500}><Link className="button" style={{ background: '#F2F2F2'}} to="/">MY WORK</Link></Fade></div>
+                    {/* <div style={{ marginTop: '2rem'}}><Fade delay={1500}><Link className="button" style={{ background: '#F2F2F2'}} to="/">MY WORK</Link></Fade></div> */}
                 </div>
             </div>
         </div>
