@@ -7,10 +7,20 @@
 }
 
 .process-works-image{
-    background: #F2F2F2;
-    width: 7rem;
+    width: 5rem;
     height: 3rem;
 }
+
+.process-works-image .gatsby-image-wrapper{
+    width: 4rem;
+    height: 3rem;
+}
+
+.process-works-image .gatsby-image-wrapper img{
+    object-fit: contain !important;
+}
+
+
 .paddingFix{
     padding: 0rem 1.5rem;
 }
