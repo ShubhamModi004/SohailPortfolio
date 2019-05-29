@@ -21,7 +21,7 @@ export default function Blog() {
                 </div>
                 <div className="blogContainer overflowHide">
                     <Fade bottom delay={100}>
-                        <a href="https://blog.prototypr.io/a-deeper-understanding-to-users-well-being-4da82452ad68">
+                        <a href="https://blog.prototypr.io/a-deeper-understanding-to-users-well-being-4da82452ad68" target="_blank">
                             <div className="">
                                 <div className="cardBlog">
                                     <Design />
