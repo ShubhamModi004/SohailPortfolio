@@ -73,20 +73,22 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="col-md-6 col-12 product">
-                        <Fade duration={1000}>
-                            <Digit88 />
-                        </Fade>
-                        <div className="productDetails overflowHide">
-                            <Fade cascade bottom>
-                                <div>
-                                    <h6>DIGIT88</h6>
-                                    <p>UI / UX - Website</p>
-                                </div>
-                                <div>
-                                    <h6 className="caseStudy">COMING SOON<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
-                                </div>
+                        <a href="https://www.behance.net/gallery/80882265/Digit88-Tech-services-website">
+                            <Fade duration={1000}>
+                                <Digit88 />
                             </Fade>
-                        </div>
+                            <div className="productDetails overflowHide">
+                                <Fade cascade bottom>
+                                    <div>
+                                        <h6>DIGIT88</h6>
+                                        <p>UI / UX - Website</p>
+                                    </div>
+                                    <div>
+                                        <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
+                                    </div>
+                                </Fade>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

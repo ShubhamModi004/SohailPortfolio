@@ -22,11 +22,10 @@ export default function Footer() {
             <div className="footerBottom container">
                 <div className="footerContent">
                     <h4>Let's get you up that ladder</h4>
-                    <a className="blck" data-mce-href="mailto:Lifeofpixels0707@gmail.com" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
                 </div>
                 <div className="calltoActions">
-                    <Link>lifeofpixels0707@gmail.com</Link>
-                    <Link>+91 81975 58162</Link>
+                    <a href="">lifeofpixels0707@gmail.com</a>
+                    <a href="tel:+918197558162">+91 81975 58162</a>
                 </div>
             </div>
             <div className="footer-madeBy">

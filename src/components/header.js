@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
-import React, {Component} from "react"
+import React, { Component } from "react"
 import Img from "gatsby-image";
-import { StaticQuery, graphql, Link  } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
 import { slide as Menu } from 'react-burger-menu'
 
@@ -9,8 +9,8 @@ import { slide as Menu } from 'react-burger-menu'
 import './header.css';
 
 
-class Header extends Component{
-  state={
+class Header extends Component {
+  state = {
     isActive: false
   }
 
@@ -22,9 +22,9 @@ class Header extends Component{
     })
   }
 
-  render(){
+  render() {
     const { isActive } = this.state
-    return(
+    return (
       <header className={"header container " + (isActive ? 'hideBody' : 'dontHide')}>
         <div className="logo">
           <Link to="/">
@@ -37,7 +37,6 @@ class Header extends Component{
             <Link to="/" activeClassName='active'>WORK</Link>
             <Link to="/AboutPage" activeClassName='active'>ABOUT</Link>
             <Link to="/ProcessPage" activeClassName='active'>PROCESS</Link>
-            <a className="blck" href="mailto:Lifeofpixels0707@gmail.com">GET IN TOUCH</a>
           </div>
         </div>
 
@@ -45,10 +44,10 @@ class Header extends Component{
         <div className="mobile">
           <div>
             <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right onStateChange={() => this.toggleHamburger()}>
-            <Link className="menu-item" to="/" activeClassName='active'>WORK</Link>
-            <Link className="menu-item" to="/AboutPage" activeClassName='active'>ABOUT</Link>
-            <Link className="menu-item" to="/ProcessPage" activeClassName='active'>PROCESS</Link>
-          </Menu>
+              <Link className="menu-item" to="/" activeClassName='active'>WORK</Link>
+              <Link className="menu-item" to="/AboutPage" activeClassName='active'>ABOUT</Link>
+              <Link className="menu-item" to="/ProcessPage" activeClassName='active'>PROCESS</Link>
+            </Menu>
           </div>
         </div>
 

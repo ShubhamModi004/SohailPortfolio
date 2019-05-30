@@ -26,7 +26,7 @@
 .product .gatsby-image-wrapper{
     margin-top: 2rem; 
     width: 100%;
-    height: 25rem;
+    height: 100%;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out; 
     transition: 0.3s ease-in-out; 
