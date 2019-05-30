@@ -24,7 +24,7 @@ export default function Footer() {
                     <h4>Let's get you up that ladder</h4>
                 </div>
                 <div className="calltoActions">
-                    <a href="">lifeofpixels0707@gmail.com</a>
+                    <a>lifeofpixels0707@gmail.com</a>
                     <a href="tel:+918197558162">+91 81975 58162</a>
                 </div>
             </div>
