@@ -22,7 +22,7 @@ class Footer extends Component {
         return (
             <div>
                 {contactForm ?
-                    <div>
+                    <div class="form-container">
                         <Fade >
                             <div className="contactform">
                                 <div className="contactform-container">
@@ -31,7 +31,7 @@ class Footer extends Component {
                                         <h2>Let's connect</h2>
                                         <form className="form-blck" action="https://formspree.io/lifeofpixels0707@gmail.com" method="POST">
                                             <input className="email" type="email" id="fname" name="email" placeholder="Email" />
-                                            <textarea className="message" placeholder="Message" />
+                                            <textarea className="message" type="text" id="body" name="body" placeholder="Message"></textarea>
                                             <input type="submit" value="Submit" className="submit" />
                                         </form>
                                     </div>
