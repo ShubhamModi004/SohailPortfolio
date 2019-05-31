@@ -11,7 +11,8 @@ import './header.css';
 
 class Header extends Component {
   state = {
-    isActive: false
+    isActive: false,
+    contactForm: false
   }
 
   toggleHamburger = () => {
@@ -21,11 +22,54 @@ class Header extends Component {
       isActive: !isActive
     })
   }
+  toggleContactForm = () => {
+    const { contactForm } = this.state;
+
+    this.setState({
+      contactForm: !contactForm
+    });
+    console.log(contactForm);
+  };
+
+  renderContactForm() {
+    const { contactForm } = this.state;
+    return (
+      <div>
+        {contactForm ?
+          <div>
+            <Fade >
+              <div className="contactform">
+                <div className="contactform-container">
+                  <div className="container">
+                    <div class="cross cross--big" onClick={this.toggleContactForm}><span class="cross__icon"></span></div>
+                    <h2>Let's connect</h2>
+                    <form className="form-blck" action="https://formspree.io/lifeofpixels0707@gmail.com" method="POST">
+                      <input className="email" type="email" id="fname" name="email" placeholder="Email" />
+                      <textarea className="message">Message</textarea>
+                      <input type="submit" value="Submit" className="submit" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+            <Fade>
+              <div className="offset" onClick={this.toggleContactForm}>
+
+              </div>
+            </Fade>
+          </div>
+          : null
+        }
+      </div>
+    );
+  };
+
 
   render() {
     const { isActive } = this.state
     return (
       <header className={"header container " + (isActive ? 'hideBody' : 'dontHide')}>
+        {this.renderContactForm()}
         <div className="logo">
           <Link to="/">
             <Logo />
@@ -37,6 +81,7 @@ class Header extends Component {
             <Link to="/" activeClassName='active'>WORK</Link>
             <Link to="/AboutPage" activeClassName='active'>ABOUT</Link>
             <Link to="/ProcessPage" activeClassName='active'>PROCESS</Link>
+            <a className="blck" onClick={this.toggleContactForm}>GET IN TOUCH</a>
           </div>
         </div>
 

@@ -35,30 +35,32 @@ export default function Blog() {
                         </a>
                     </Fade>
                     <Fade bottom delay={300}>
-                        <div className="">
-                            <div className="cardBlog">
-                                <UiUx />
-                                <Fade distance={'20px'}>
-                                    <h6 className="blogTitle">THE UX FLOW</h6>
-                                    <br />
-                                    <h7> READ <FaAngleRight /> </h7>
-                                    <br />
-                                </Fade>
+                        <a href="https://medium.com/@lifeofpixels0707/a-b-testing-101-719d4a0c576b" target="_blank">
+                            <div className="">
+                                <div className="cardBlog">
+                                    <UiUx />
+                                    <Fade distance={'20px'}>
+                                        <br />
+                                        <h7> READ <FaAngleRight /> </h7>
+                                        <br />
+                                    </Fade>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                     <Fade bottom delay={500}>
-                        <div className="">
-                            <div className="cardBlog">
-                                <Principle />
-                                <Fade distance={'20px'}>
-                                    <h6 className="blogTitle">PRINCIPLES OF DESIGN</h6>
-                                    <br />
-                                    <h7> READ <FaAngleRight /> </h7>
-                                    <br />
-                                </Fade>
+                        <a href="https://medium.com/@lifeofpixels0707/understanding-whats-more-important-to-users-21c252b0efd4" target="_blank">
+                            <div className="">
+                                <div className="cardBlog">
+                                    <Principle />
+                                    <Fade distance={'20px'}>
+                                        <br />
+                                        <h7> READ <FaAngleRight /> </h7>
+                                        <br />
+                                    </Fade>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                 </div>
             </div>
