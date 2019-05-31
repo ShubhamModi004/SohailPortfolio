@@ -31,7 +31,7 @@ class Footer extends Component {
                                         <h2>Let's connect</h2>
                                         <form className="form-blck" action="https://formspree.io/lifeofpixels0707@gmail.com" method="POST">
                                             <input className="email" type="email" id="fname" name="email" placeholder="Email" />
-                                            <textarea className="message">Message</textarea>
+                                            <textarea className="message" placeholder="Message" />
                                             <input type="submit" value="Submit" className="submit" />
                                         </form>
                                     </div>
