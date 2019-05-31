@@ -69,12 +69,12 @@ class Header extends Component {
     const { isActive } = this.state
     return (
       <header className={"header container " + (isActive ? 'hideBody' : 'dontHide')}>
-        {this.renderContactForm()}
         <div className="logo">
           <Link to="/">
             <Logo />
           </Link>
         </div>
+        {this.renderContactForm()}
         {/* Desktop Menu */}
         <div className="desktop">
           <div className="header-links">
