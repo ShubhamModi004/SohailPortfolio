@@ -7,10 +7,7 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
         <link rel="shortcut icon" href="./images/logo.png" />
         <meta name="theme-color" content="#000" />
         <link rel="apple-touch-icon" sizes="48x48" href="./images/logo.png" />
