@@ -220,6 +220,15 @@ footerContent{
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 770px){
+    .contactform{
+        top: 5vh;
+        left: 5vw;
+        right: 5vw;
+        bottom: 5vh;
+    }
+}
+
 .offset{
     background: rgba(0,0,0,0.3);
     position: fixed;
@@ -232,6 +241,14 @@ footerContent{
 
 .contactform-container{
     width: 70vw;
+    position: absolute;
+
+}
+
+@media only screen and (max-width: 770px){
+    .contactform-container{
+        width: 80vw;
+    }
 }
 .contactform-container h2{
     color: #fff;
@@ -369,7 +386,7 @@ footerContent{
     float: right;
     /* margin: 10px; */
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: -30%;
+    right: 0%;
 
 }
