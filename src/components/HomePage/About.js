@@ -19,7 +19,7 @@ export default function About() {
                     <div className="row">
                         <div className="col-md-3 col-6 fields">
                             <h1>60+</h1>
-                            <p>CLIENTS</p>
+                            <p>PROJECTS</p>
                         </div>
                         <div className="col-md-3 col-6 fields">
                             <h1>5+</h1>
