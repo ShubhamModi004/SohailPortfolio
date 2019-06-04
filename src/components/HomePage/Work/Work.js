@@ -37,15 +37,15 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="col-md-6 col-12 product">
-                        <a href="https://www.behance.net/gallery/80589003/MTRS-Navigation-Tracking" target="_blank">
+                        <a href="https://www.behance.net/gallery/80882265/Digit88-Tech-services-website">
                             <Fade duration={1000}>
-                                <Mtrs />
+                                <Digit88 />
                             </Fade>
                             <div className="productDetails overflowHide">
                                 <Fade cascade bottom>
                                     <div>
-                                        <h6>MTRS</h6>
-                                        <p>Watch UI/UX</p>
+                                        <h6>DIGIT88</h6>
+                                        <p>UI / UX - Website</p>
                                     </div>
                                     <div>
                                         <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
@@ -54,6 +54,7 @@ export default function Work() {
                             </div>
                         </a>
                     </div>
+
                     <div className="col-md-6 col-12 product">
                         <a href="https://www.behance.net/gallery/80675577/Destination-x-Travel-Community-App" target="_blank">
                             <Fade duration={1000}>
@@ -73,15 +74,15 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="col-md-6 col-12 product">
-                        <a href="https://www.behance.net/gallery/80882265/Digit88-Tech-services-website">
+                        <a href="https://www.behance.net/gallery/80589003/MTRS-Navigation-Tracking" target="_blank">
                             <Fade duration={1000}>
-                                <Digit88 />
+                                <Mtrs />
                             </Fade>
                             <div className="productDetails overflowHide">
                                 <Fade cascade bottom>
                                     <div>
-                                        <h6>DIGIT88</h6>
-                                        <p>UI / UX - Website</p>
+                                        <h6>MTRS</h6>
+                                        <p>Watch UI/UX</p>
                                     </div>
                                     <div>
                                         <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
@@ -90,6 +91,7 @@ export default function Work() {
                             </div>
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>
