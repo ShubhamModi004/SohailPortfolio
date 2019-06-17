@@ -32,19 +32,19 @@ class IndexPage extends Component {
     render() {
         const { render } = this.state;
         return (
-            (!render ? 
+            (!render ?
                 <Loader>
-                    <SEO title="About" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+                    <SEO title="About Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
                 </Loader>
                 :
                 <Fade delay={100}>
-                    <SEO title="About" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+                    <SEO title="About Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
                     <Layout>
-                        <Hero/>
-                        <About/>
-                        <Extra/>
-                        <Myprocess/>
-                        <Blog/>
+                        <Hero />
+                        <About />
+                        <Extra />
+                        <Myprocess />
+                        <Blog />
                     </Layout>
                 </Fade>
             )

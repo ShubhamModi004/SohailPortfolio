@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -17,11 +17,11 @@ import SEO from "../components/seo"
 
 class IndexPage extends Component {
 
-	state= {
+	state = {
 		render: false
 	}
 
-	componentDidMount(){
+	componentDidMount() {
 		setTimeout(() => {
 			this.setState({
 				render: true
@@ -30,15 +30,15 @@ class IndexPage extends Component {
 	}
 
 	render() {
-		const {render } = this.state;
+		const { render } = this.state;
 		return (
-			(!render ? 
+			(!render ?
 				<Loader>
-					<SEO title="Home" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+					<SEO title="Product Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
 				</Loader> :
 				<Fade delay={100}>
 					<Layout>
-						<SEO title="Home" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+						<SEO title="Product Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
 						<Hero />
 						<About />
 						<Work />
@@ -50,5 +50,5 @@ class IndexPage extends Component {
 		)
 	}
 }
-  
+
 export default IndexPage;
