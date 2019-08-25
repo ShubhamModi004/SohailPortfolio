@@ -78,7 +78,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="footer-madeBy">
-                    <p>Developed by <a href="https://github.com/ShubhamModi004"> Shubham Modi</a></p>
+                    <p>Developed by <a href="https://codewithshubham.com/"> Shubham Modi</a></p>
                 </div>
 
             </div>
