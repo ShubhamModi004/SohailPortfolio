@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
@@ -19,13 +19,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-      <div id="outer-container">
-          <Header/>
+      <Fragment>
+        <div id="outer-container">
+          <Header />
           <main id="page-wrap" class="body-container">{children}</main>
-          <Footer/>
+          <Footer />
         </div>
-      </>
+      </Fragment>
     )}
   />
 )
