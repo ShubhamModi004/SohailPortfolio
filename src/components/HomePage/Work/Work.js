@@ -118,7 +118,7 @@ export default function Work() {
                         </a>
                     </div>
                     <div className="col-md-6 col-12 product">
-                        <a href="https://www.behance.net/gallery/95146961/Payper-20-Payment-app">
+                        <a href="https://www.behance.net/gallery/95146961/Payper-20-Payment-app" target="_blank">
                             <Fade duration={1000}>
                                 <Payper />
                             </Fade>
