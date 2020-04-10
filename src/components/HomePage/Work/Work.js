@@ -9,6 +9,12 @@ import Mtrs from './Mtrs';
 import DestinationX from './DestinationX';
 import Digit88 from './Digit88';
 
+// New work
+import Rentar from './Rentar';
+import Payper from './Payper';
+import Hiro from './Hiro';
+import Mali from './Mali';
+
 
 export default function Work() {
     return (
@@ -83,6 +89,81 @@ export default function Work() {
                                     <div>
                                         <h6>MTRS</h6>
                                         <p>Watch UI/UX</p>
+                                    </div>
+                                    <div>
+                                        <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
+                                    </div>
+                                </Fade>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div className="col-md-6 col-12 product">
+                        <a href="https://www.behance.net/gallery/95148111/Rentar-Car-Rental-App" target="_blank">
+                            <Fade duration={1000}>
+                                <Rentar />
+                            </Fade>
+                            <div className="productDetails overflowHide">
+                                <Fade cascade bottom>
+                                    <div>
+                                        <h6>Rentar - Car Rental App</h6>
+                                        <p>UI / UX - Mobile App</p>
+                                    </div>
+                                    <div>
+                                        <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
+                                    </div>
+                                </Fade>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col-md-6 col-12 product">
+                        <a href="https://www.behance.net/gallery/95146961/Payper-20-Payment-app">
+                            <Fade duration={1000}>
+                                <Payper />
+                            </Fade>
+                            <div className="productDetails overflowHide">
+                                <Fade cascade bottom>
+                                    <div>
+                                        <h6>Payper 2.0 - Payment app</h6>
+                                        <p>UI / UX - Mobile App</p>
+                                    </div>
+                                    <div>
+                                        <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
+                                    </div>
+                                </Fade>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="col-md-6 col-12 product">
+                        <a href="https://www.behance.net/gallery/95147673/Hiro-Credit-Line-Credit-Card" target="_blank">
+                            <Fade duration={1000}>
+                                <Hiro />
+                            </Fade>
+                            <div className="productDetails overflowHide">
+                                <Fade cascade bottom>
+                                    <div>
+                                        <h6>Hiro - Credit Line / Credit Card</h6>
+                                        <p>UI / UX / Branding - Mobile App</p>
+                                    </div>
+                                    <div>
+                                        <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
+                                    </div>
+                                </Fade>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col-md-6 col-12 product">
+                        <a href="https://www.behance.net/gallery/95145659/Mali-Home-automation-app" target="_blank">
+                            <Fade duration={1000}>
+                                <Mali />
+                            </Fade>
+                            <div className="productDetails overflowHide">
+                                <Fade cascade bottom>
+                                    <div>
+                                        <h6>Mali - Home automation app</h6>
+                                        <p>UI / UX - Mobile App</p>
                                     </div>
                                     <div>
                                         <h6 className="caseStudy">CASE STUDY<FaAngleRight color={'#707070'} size={8} style={{ marginLeft: '0.5rem' }} /></h6>
