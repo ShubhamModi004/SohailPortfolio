@@ -22,7 +22,7 @@ export default function About() {
                             <p>PROJECTS</p>
                         </div>
                         <div className="col-md-3 col-6 fields">
-                            <h1>5+</h1>
+                            <h1>7+</h1>
                             <p>EXPERIENCE</p>
                         </div>
                         <div className="col-md-3 col-6 fields">
